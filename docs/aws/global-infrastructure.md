@@ -1,4 +1,6 @@
-# Understanding the difference between a region, an Availabity Zone (AZ) and an Edge Location
+# AWS Global Infrastructure
+
+## Understanding the difference between a region, an Availabity Zone (AZ) and an Edge Location
 
 * A region is a physical location in the world which consists of two or more Availability Zones.
 * An Availability Zone is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.

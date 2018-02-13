@@ -27,7 +27,8 @@ pages:
   - Docker networks: docker/docker-networks.md
   - Docker secrets: docker/docker-secrets.md
 - AWS: 
-  - Zones : aws/region-availabilityzones-edgezones.md
+  - Zones : aws/global-infrastructure.md
+  - Services : aws/services.md
 
 # Theme
 theme: 
