@@ -5,25 +5,25 @@
         
     <url>
      <loc>https://atselvan.github.io/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/blog/cicd-fundamentals/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/blog/networking-fundamentals/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/blog/understanding-iaas-paas-saas/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -33,31 +33,31 @@
         
     <url>
      <loc>https://atselvan.github.io/docker/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/docker/docker-compose/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/docker/docker-machine/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/docker/docker-networks/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://atselvan.github.io/docker/docker-secrets/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -66,8 +66,14 @@
     
         
     <url>
-     <loc>https://atselvan.github.io/aws/region-availabilityzones-edgezones/</loc>
-     <lastmod>2018-02-08</lastmod>
+     <loc>https://atselvan.github.io/aws/global-infrastructure/</loc>
+     <lastmod>2018-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://atselvan.github.io/aws/services/</loc>
+     <lastmod>2018-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

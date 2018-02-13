@@ -286,14 +286,549 @@
             "title": "Docker secrets"
         }, 
         {
-            "location": "/aws/region-availabilityzones-edgezones/", 
-            "text": "Understanding the difference between a region, an Availabity Zone (AZ) and an Edge Location\n\n\n\n\nA region is a physical location in the world which consists of two or more Availability Zones.\n\n\nAn Availability Zone is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.\n\n\nEdge locations are endpoints for AWS which are used for cacheing content. Typically it consists of CloudFront which is Amazon's Content Delivery Network (CDN)", 
+            "location": "/aws/global-infrastructure/", 
+            "text": "AWS Global Infrastructure\n\n\nUnderstanding the difference between a region, an Availabity Zone (AZ) and an Edge Location\n\n\n\n\nA region is a physical location in the world which consists of two or more Availability Zones.\n\n\nAn Availability Zone is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.\n\n\nEdge locations are endpoints for AWS which are used for cacheing content. Typically it consists of CloudFront which is Amazon's Content Delivery Network (CDN)", 
             "title": "Zones"
         }, 
         {
-            "location": "/aws/region-availabilityzones-edgezones/#understanding-the-difference-between-a-region-an-availabity-zone-az-and-an-edge-location", 
+            "location": "/aws/global-infrastructure/#aws-global-infrastructure", 
+            "text": "", 
+            "title": "AWS Global Infrastructure"
+        }, 
+        {
+            "location": "/aws/global-infrastructure/#understanding-the-difference-between-a-region-an-availabity-zone-az-and-an-edge-location", 
             "text": "A region is a physical location in the world which consists of two or more Availability Zones.  An Availability Zone is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.  Edge locations are endpoints for AWS which are used for cacheing content. Typically it consists of CloudFront which is Amazon's Content Delivery Network (CDN)", 
             "title": "Understanding the difference between a region, an Availabity Zone (AZ) and an Edge Location"
+        }, 
+        {
+            "location": "/aws/services/", 
+            "text": "AWS Services\n\n\nCompute\n\n\nEC2 : ELastic Compute Cloud\n\n\nVirtual servers inside the AWS platform\n\n\nECS : Elastic Container Services\n\n\nRun and manage docker containers\n\n\nEC2 Auto Scaling\n\n\nScale compute capacity to meet demands.\n\n\nElastic Beanstalk\n\n\nRun and manage webapps.\nFor people who do not want to unstand how AWS works and who only care about their application.\n\n\nLambda\n\n\nRun you code in response to events.\n\n\nLightsail\n\n\nLaunch and manage virtual private servers (VPS).\nFor people who dont really want to understand AWS and the underlying infrastructure. They dont want to know about VPC's and security groups.\nThis service will just provision you with a server, A fixed IP addrres for loging.\nComes with a management console for managing the server.\n\n\nBatch\n\n\nRun batch jobs at any scale\nBatch computing on the cloud.\n\n\nStorage\n\n\nS3 [Simple storage service]\n\n\nOne of the oldest storage service.\nObject based storage. There are buckets and data is uploaded to the buckets.\n\n\nEFS [Elastic file system]\n\n\nBasically Network Attached storage. Can mount them to multiple virtual machines.\n\n\nGlacier\n\n\nFor data Archieving.\n\n\nSnowball\n\n\nMove GB's of data to the Amazon data center without using broadband line or wifi. Write it phisically to a disk.\n\n\nStorage gateway\n\n\nAre basicall virtual applicances that will replicate data back to S3.\nThere are 4 diff types.\n\n\nDatabase\n\n\nRDS [Relation database service]\n\n\nThis will be things like Mysql, postgres, Oracle etc.\n\n\nDynamo DB\n\n\nNon relational db (will be covered later)\n\n\nElasticache\n\n\nFor caching commonly executed queries.\nWill freeup the db service you a\n\n\nRedshift\n\n\nFor data warehousing and business intelligence.\nFor making very complex queries.\n\n\nMigration\n\n\nAWS migration hub\n\n\nAllows you to track you applications as you move your application to AWS and integrated with other services of the migration framework.\nFor visualizing the progress of your migration\n\n\nApplication discovery  service\n\n\nDetects the applications you have along with their depencies. For example if you have a sonarqube server it may have a dependency on a sql server or a domain controller.\nThus its a way of tracking dependencies for your application.\n\n\nDatabase Migration service\n\n\nVery easy way to migrate on premise databases to AWS\n\n\nServer migration service\n\n\nhelps you to migrate your virtual and physical server to the AWS cloud\n\n\nSnowball\n\n\nHelps you to migrate large chunks of data into the cloud.\n\n\nNetworking and content delivery\n\n\nVPC\n\n\nAmazon Virtual private cloud. Can be considered as a virtual datacenter.\nConfigure firewall, availability zones, network sider address ranges,  Network ACL's, route tables etc.\nIt is pretty complicated to understand. (V IMP)\nFundamental and inportant part.\n\n\nCloudFront\n\n\nAmazons content delivery network service.\n\n\nRoute 53\n\n\nAmazons DNS service.\n\n\nAPI Gateway\n\n\nFor creating a serverless website using polly.\nA way of creating your own API for other services to talk to\n\n\nDirect connect\n\n\nIs a way of running a dedicated line from your Corporate head office or data center to AWS.\n\n\nDeveloper tools\n\n\nCodeStar\n\n\nProject managing your code. For colaborating with other developers.\n\n\nCodeCommit\n\n\nA place to store your code\n\n\nCodeBuild\n\n\nCompiles the code and run tests against it to producte software packages.\n\n\nCodeDeploy\n\n\nAutomates code deployment to your EC2 and on premise servers.\n\n\nCodePipeline\n\n\nContinuous delivery server to visualize and automate the steps required to release your software.\n\n\nX-Ray\n\n\nTo debug and analyse serverless applications.\n\n\nCloud9\n\n\nThis is a IDE environment. A place where you can develop your code withing your web browser in AWS.\n\n\nManagement tools\n\n\nCloudWatch\n\n\nIs a monitoring service.\n\n\nCloudFormation\n\n\nIt is a way of scripting infrastructure.\nWith a cloudformation template to deploy your applications.\nReusable.\n\n\nCloudTrail\n\n\nLog changes to your AWS environment.\nIts turned on by default and it keeps the chages trail for a week.\nIf turned on it makes it easy to determine if your environment is hacked.\n\n\nConfig\n\n\nMonitors the configuration of your AWS environment.\nMaintains a snapshot thus making it possible to move back and forward across weeks. \nVisualise your AWS environments.\n\n\nOpsWorks\n\n\nSimilar to elastic beanstack.\nUser chef and puppet to automate the environment.\n\n\nService catalog\n\n\nA way for managing a catalog of service allowed to use on the AWS environment.\nVirtual server images, Operating systems. databases etc\nBasically used by big organizations for governance and compliance requirements\n\n\nSystems Manager\n\n\nInterface for maintaining your AWS resources.\nTypically used for EC2.\nFor patch maintenance eg: security patches across thousands of EC2 instances.\nCan group all the resources by different departments or applications.\n\n\nTrusted Advisor\n\n\nWould give you advice on multiple deciplines like security, would advice if you have left any ports open that could be a risk. It can tell you how you can save money on AWS.\nCan be thought of as an Advisor or an accountant that you trust and that gives you the best advice on your AWS envieonment.\n\n\nManaged services\n\n\nAmazon provides managed services for AWS, i.e., if you do not want to worry about your EC2 instances or the auto scale feature you can opt for the managed services.\n\n\nMachine Learnig\n\n\nPolly\n\n\nturns text into speech\nCan choose different languages\n\n\nLex\n\n\nAlexa service\n\n\nRekognition\n\n\nCan upload a picture and it will let you whats there in the picture.\n\n\nTranslate\n\n\nTranslate languages\nsimilar to google translate\n\n\nTranscribe\n\n\nAutomatic speech recognition\nTurns speech into text\n\n\nAnalytics\n\n\nAthena\n\n\nLooks through the S3 bucket data and returns results.\n\n\nEMR [Elastic Map Reduce]\n\n\nfor processing large amounts of data for big data solutions.\n\n\nCloudSearch and Elastic Search Service\n\n\nSearch services for AWS\n\n\nKinesis\n\n\nWay of ingesting large amount of data into AWS. Social media feeds etc.\n\n\nQuickSight\n\n\nAmazons business intelligence tool.\n\n\nData pipeline\n\n\nMoving data between diff AWS services.\n\n\nGlue\n\n\nUsed for ETL [Extract transform and load]\n\n\nSecurity, Identity and Compliance\n\n\nIAM [Identity and Access management]\n\n\nCognito\n\n\nIs a way of doing device authentication.\nAuthenticate using FB gmail etc.\nUse Cognito as a authentication service to get temp access to AWS resources.\n\n\nGuardDuty\n\n\nIt monitors for malicious activities on your AWS environment.\n\n\nInspector\n\n\nInstalled on Virtual machines and EC2 instances to run a whole bunch of tests agains it to check for security vulnerabilities.\nCan be scheduled to run weekly, monthly..\nGenerates a report and gives you a severity report of the vulnerabilities.\n\n\nMAcie\n\n\nwill scan your s3 bucked to look for things that contain a personally identifiable information PII like names, adresses, passport numbers etc and alert you.\n\n\nCertificate Manager\n\n\nGet ssl certificates for free if your using AWS services and registering the domains through route 53.\nManaging SSL certificates.\n\n\nCloudHSM\n\n\nHSM [Hardware Security Modules]\nDedicated bits of hardware used to store your keys eg: private and public keys.\nThe keys may be used to access your EC2 instances. Can used these keys to encrypy AWS objects.\n\n\nDirectory Service\n\n\nA way of integration AD with AWS services.\n\n\nWAF : Web Application Firewall\n\n\nPrevents cross site scripting, SQL injections etc. Prevents malicious users.\n\n\nShield\n\n\nShield is basically DDOS mitigation.\n\n\nArtifact\n\n\nFor Audit and compliance. Way of downloading and inspecting Amazons documentation.\n\n\nMobile services\n\n\nMobile hub\n\n\nmanagement console for mobile applications.\n\n\nPinpoint\n\n\nNew service\nUse targetted push notification\n\n\nAppSync\n\n\nUpdates web and mobile data. Updates data when the phone comes back online.\n\n\nDevice Farm\n\n\nTest mobile application on real android and ios devices\n\n\nMobile Analytics\n\n\nAnalytics for your mobile application\n\n\nApplication Integration\n\n\nStep functions\n\n\nManaging your lamda function and manage the steps to go through it.\n\n\nAmazon MQ\n\n\nFor message queues. similar to Rabbit MQ.\n\n\nSNS\n\n\nA notification service. Will be setting a billing alarm.\n\n\nSQS\n\n\nOne of the oldest services.\nA way of decoupling your infrastructure.\n\n\nSWF :Simple Workflow Service\n\n\nCustomer engagement\n\n\nConnect\n\n\nA contact center as a service. Similar to having a call center on the cloud.\n\n\nSimple email service\n\n\nA great way of sending large amount of emails.\n\n\nBusiness Productivity\n\n\nAlexa for Business\n\n\nUse it to dial into a meeting room\n\n\nChime\n\n\nLike google hangout. Record meetings.\n\n\nWork Docs\n\n\nLike a dropbox in AWS\n\n\nWorkMail\n\n\nLike office 365\n\n\nDesktop and App Streaming\n\n\nWorkspaces\n\n\nIs a VDI solution. Accessing a desktop on the cloud on your device.\n\n\nAppStream 2.0\n\n\nWay of live streaming the application. Like Citrix.\n\n\nIOT Internet Of Things\n\n\niOT\n\n\niOT Device Management\n\n\nFreeRTOS\n\n\nGreengrass\n\n\nGame Development\n\n\nGameLift\n\n\nService to help you develop a game.", 
+            "title": "Services"
+        }, 
+        {
+            "location": "/aws/services/#aws-services", 
+            "text": "", 
+            "title": "AWS Services"
+        }, 
+        {
+            "location": "/aws/services/#compute", 
+            "text": "", 
+            "title": "Compute"
+        }, 
+        {
+            "location": "/aws/services/#ec2-elastic-compute-cloud", 
+            "text": "Virtual servers inside the AWS platform", 
+            "title": "EC2 : ELastic Compute Cloud"
+        }, 
+        {
+            "location": "/aws/services/#ecs-elastic-container-services", 
+            "text": "Run and manage docker containers", 
+            "title": "ECS : Elastic Container Services"
+        }, 
+        {
+            "location": "/aws/services/#ec2-auto-scaling", 
+            "text": "Scale compute capacity to meet demands.", 
+            "title": "EC2 Auto Scaling"
+        }, 
+        {
+            "location": "/aws/services/#elastic-beanstalk", 
+            "text": "Run and manage webapps.\nFor people who do not want to unstand how AWS works and who only care about their application.", 
+            "title": "Elastic Beanstalk"
+        }, 
+        {
+            "location": "/aws/services/#lambda", 
+            "text": "Run you code in response to events.", 
+            "title": "Lambda"
+        }, 
+        {
+            "location": "/aws/services/#lightsail", 
+            "text": "Launch and manage virtual private servers (VPS).\nFor people who dont really want to understand AWS and the underlying infrastructure. They dont want to know about VPC's and security groups.\nThis service will just provision you with a server, A fixed IP addrres for loging.\nComes with a management console for managing the server.", 
+            "title": "Lightsail"
+        }, 
+        {
+            "location": "/aws/services/#batch", 
+            "text": "Run batch jobs at any scale\nBatch computing on the cloud.", 
+            "title": "Batch"
+        }, 
+        {
+            "location": "/aws/services/#storage", 
+            "text": "", 
+            "title": "Storage"
+        }, 
+        {
+            "location": "/aws/services/#s3-simple-storage-service", 
+            "text": "One of the oldest storage service.\nObject based storage. There are buckets and data is uploaded to the buckets.", 
+            "title": "S3 [Simple storage service]"
+        }, 
+        {
+            "location": "/aws/services/#efs-elastic-file-system", 
+            "text": "Basically Network Attached storage. Can mount them to multiple virtual machines.", 
+            "title": "EFS [Elastic file system]"
+        }, 
+        {
+            "location": "/aws/services/#glacier", 
+            "text": "For data Archieving.", 
+            "title": "Glacier"
+        }, 
+        {
+            "location": "/aws/services/#snowball", 
+            "text": "Move GB's of data to the Amazon data center without using broadband line or wifi. Write it phisically to a disk.", 
+            "title": "Snowball"
+        }, 
+        {
+            "location": "/aws/services/#storage-gateway", 
+            "text": "Are basicall virtual applicances that will replicate data back to S3.\nThere are 4 diff types.", 
+            "title": "Storage gateway"
+        }, 
+        {
+            "location": "/aws/services/#database", 
+            "text": "", 
+            "title": "Database"
+        }, 
+        {
+            "location": "/aws/services/#rds-relation-database-service", 
+            "text": "This will be things like Mysql, postgres, Oracle etc.", 
+            "title": "RDS [Relation database service]"
+        }, 
+        {
+            "location": "/aws/services/#dynamo-db", 
+            "text": "Non relational db (will be covered later)", 
+            "title": "Dynamo DB"
+        }, 
+        {
+            "location": "/aws/services/#elasticache", 
+            "text": "For caching commonly executed queries.\nWill freeup the db service you a", 
+            "title": "Elasticache"
+        }, 
+        {
+            "location": "/aws/services/#redshift", 
+            "text": "For data warehousing and business intelligence.\nFor making very complex queries.", 
+            "title": "Redshift"
+        }, 
+        {
+            "location": "/aws/services/#migration", 
+            "text": "", 
+            "title": "Migration"
+        }, 
+        {
+            "location": "/aws/services/#aws-migration-hub", 
+            "text": "Allows you to track you applications as you move your application to AWS and integrated with other services of the migration framework.\nFor visualizing the progress of your migration", 
+            "title": "AWS migration hub"
+        }, 
+        {
+            "location": "/aws/services/#application-discovery-service", 
+            "text": "Detects the applications you have along with their depencies. For example if you have a sonarqube server it may have a dependency on a sql server or a domain controller.\nThus its a way of tracking dependencies for your application.", 
+            "title": "Application discovery  service"
+        }, 
+        {
+            "location": "/aws/services/#database-migration-service", 
+            "text": "Very easy way to migrate on premise databases to AWS", 
+            "title": "Database Migration service"
+        }, 
+        {
+            "location": "/aws/services/#server-migration-service", 
+            "text": "helps you to migrate your virtual and physical server to the AWS cloud", 
+            "title": "Server migration service"
+        }, 
+        {
+            "location": "/aws/services/#snowball_1", 
+            "text": "Helps you to migrate large chunks of data into the cloud.", 
+            "title": "Snowball"
+        }, 
+        {
+            "location": "/aws/services/#networking-and-content-delivery", 
+            "text": "", 
+            "title": "Networking and content delivery"
+        }, 
+        {
+            "location": "/aws/services/#vpc", 
+            "text": "Amazon Virtual private cloud. Can be considered as a virtual datacenter.\nConfigure firewall, availability zones, network sider address ranges,  Network ACL's, route tables etc.\nIt is pretty complicated to understand. (V IMP)\nFundamental and inportant part.", 
+            "title": "VPC"
+        }, 
+        {
+            "location": "/aws/services/#cloudfront", 
+            "text": "Amazons content delivery network service.", 
+            "title": "CloudFront"
+        }, 
+        {
+            "location": "/aws/services/#route-53", 
+            "text": "Amazons DNS service.", 
+            "title": "Route 53"
+        }, 
+        {
+            "location": "/aws/services/#api-gateway", 
+            "text": "For creating a serverless website using polly.\nA way of creating your own API for other services to talk to  Direct connect  Is a way of running a dedicated line from your Corporate head office or data center to AWS.", 
+            "title": "API Gateway"
+        }, 
+        {
+            "location": "/aws/services/#developer-tools", 
+            "text": "", 
+            "title": "Developer tools"
+        }, 
+        {
+            "location": "/aws/services/#codestar", 
+            "text": "Project managing your code. For colaborating with other developers.", 
+            "title": "CodeStar"
+        }, 
+        {
+            "location": "/aws/services/#codecommit", 
+            "text": "A place to store your code", 
+            "title": "CodeCommit"
+        }, 
+        {
+            "location": "/aws/services/#codebuild", 
+            "text": "Compiles the code and run tests against it to producte software packages.", 
+            "title": "CodeBuild"
+        }, 
+        {
+            "location": "/aws/services/#codedeploy", 
+            "text": "Automates code deployment to your EC2 and on premise servers.", 
+            "title": "CodeDeploy"
+        }, 
+        {
+            "location": "/aws/services/#codepipeline", 
+            "text": "Continuous delivery server to visualize and automate the steps required to release your software.", 
+            "title": "CodePipeline"
+        }, 
+        {
+            "location": "/aws/services/#x-ray", 
+            "text": "To debug and analyse serverless applications.", 
+            "title": "X-Ray"
+        }, 
+        {
+            "location": "/aws/services/#cloud9", 
+            "text": "This is a IDE environment. A place where you can develop your code withing your web browser in AWS.", 
+            "title": "Cloud9"
+        }, 
+        {
+            "location": "/aws/services/#management-tools", 
+            "text": "", 
+            "title": "Management tools"
+        }, 
+        {
+            "location": "/aws/services/#cloudwatch", 
+            "text": "Is a monitoring service.", 
+            "title": "CloudWatch"
+        }, 
+        {
+            "location": "/aws/services/#cloudformation", 
+            "text": "It is a way of scripting infrastructure.\nWith a cloudformation template to deploy your applications.\nReusable.", 
+            "title": "CloudFormation"
+        }, 
+        {
+            "location": "/aws/services/#cloudtrail", 
+            "text": "Log changes to your AWS environment.\nIts turned on by default and it keeps the chages trail for a week.\nIf turned on it makes it easy to determine if your environment is hacked.", 
+            "title": "CloudTrail"
+        }, 
+        {
+            "location": "/aws/services/#config", 
+            "text": "Monitors the configuration of your AWS environment.\nMaintains a snapshot thus making it possible to move back and forward across weeks. \nVisualise your AWS environments.", 
+            "title": "Config"
+        }, 
+        {
+            "location": "/aws/services/#opsworks", 
+            "text": "Similar to elastic beanstack.\nUser chef and puppet to automate the environment.", 
+            "title": "OpsWorks"
+        }, 
+        {
+            "location": "/aws/services/#service-catalog", 
+            "text": "A way for managing a catalog of service allowed to use on the AWS environment.\nVirtual server images, Operating systems. databases etc\nBasically used by big organizations for governance and compliance requirements", 
+            "title": "Service catalog"
+        }, 
+        {
+            "location": "/aws/services/#systems-manager", 
+            "text": "Interface for maintaining your AWS resources.\nTypically used for EC2.\nFor patch maintenance eg: security patches across thousands of EC2 instances.\nCan group all the resources by different departments or applications.", 
+            "title": "Systems Manager"
+        }, 
+        {
+            "location": "/aws/services/#trusted-advisor", 
+            "text": "Would give you advice on multiple deciplines like security, would advice if you have left any ports open that could be a risk. It can tell you how you can save money on AWS.\nCan be thought of as an Advisor or an accountant that you trust and that gives you the best advice on your AWS envieonment.", 
+            "title": "Trusted Advisor"
+        }, 
+        {
+            "location": "/aws/services/#managed-services", 
+            "text": "Amazon provides managed services for AWS, i.e., if you do not want to worry about your EC2 instances or the auto scale feature you can opt for the managed services.", 
+            "title": "Managed services"
+        }, 
+        {
+            "location": "/aws/services/#machine-learnig", 
+            "text": "", 
+            "title": "Machine Learnig"
+        }, 
+        {
+            "location": "/aws/services/#polly", 
+            "text": "turns text into speech\nCan choose different languages", 
+            "title": "Polly"
+        }, 
+        {
+            "location": "/aws/services/#lex", 
+            "text": "Alexa service", 
+            "title": "Lex"
+        }, 
+        {
+            "location": "/aws/services/#rekognition", 
+            "text": "Can upload a picture and it will let you whats there in the picture.", 
+            "title": "Rekognition"
+        }, 
+        {
+            "location": "/aws/services/#translate", 
+            "text": "Translate languages\nsimilar to google translate", 
+            "title": "Translate"
+        }, 
+        {
+            "location": "/aws/services/#transcribe", 
+            "text": "Automatic speech recognition\nTurns speech into text", 
+            "title": "Transcribe"
+        }, 
+        {
+            "location": "/aws/services/#analytics", 
+            "text": "", 
+            "title": "Analytics"
+        }, 
+        {
+            "location": "/aws/services/#athena", 
+            "text": "Looks through the S3 bucket data and returns results.", 
+            "title": "Athena"
+        }, 
+        {
+            "location": "/aws/services/#emr-elastic-map-reduce", 
+            "text": "for processing large amounts of data for big data solutions.", 
+            "title": "EMR [Elastic Map Reduce]"
+        }, 
+        {
+            "location": "/aws/services/#cloudsearch-and-elastic-search-service", 
+            "text": "Search services for AWS", 
+            "title": "CloudSearch and Elastic Search Service"
+        }, 
+        {
+            "location": "/aws/services/#kinesis", 
+            "text": "Way of ingesting large amount of data into AWS. Social media feeds etc.", 
+            "title": "Kinesis"
+        }, 
+        {
+            "location": "/aws/services/#quicksight", 
+            "text": "Amazons business intelligence tool.", 
+            "title": "QuickSight"
+        }, 
+        {
+            "location": "/aws/services/#data-pipeline", 
+            "text": "Moving data between diff AWS services.", 
+            "title": "Data pipeline"
+        }, 
+        {
+            "location": "/aws/services/#glue", 
+            "text": "Used for ETL [Extract transform and load]", 
+            "title": "Glue"
+        }, 
+        {
+            "location": "/aws/services/#security-identity-and-compliance", 
+            "text": "", 
+            "title": "Security, Identity and Compliance"
+        }, 
+        {
+            "location": "/aws/services/#iam-identity-and-access-management", 
+            "text": "", 
+            "title": "IAM [Identity and Access management]"
+        }, 
+        {
+            "location": "/aws/services/#cognito", 
+            "text": "Is a way of doing device authentication.\nAuthenticate using FB gmail etc.\nUse Cognito as a authentication service to get temp access to AWS resources.", 
+            "title": "Cognito"
+        }, 
+        {
+            "location": "/aws/services/#guardduty", 
+            "text": "It monitors for malicious activities on your AWS environment.", 
+            "title": "GuardDuty"
+        }, 
+        {
+            "location": "/aws/services/#inspector", 
+            "text": "Installed on Virtual machines and EC2 instances to run a whole bunch of tests agains it to check for security vulnerabilities.\nCan be scheduled to run weekly, monthly..\nGenerates a report and gives you a severity report of the vulnerabilities.", 
+            "title": "Inspector"
+        }, 
+        {
+            "location": "/aws/services/#macie", 
+            "text": "will scan your s3 bucked to look for things that contain a personally identifiable information PII like names, adresses, passport numbers etc and alert you.", 
+            "title": "MAcie"
+        }, 
+        {
+            "location": "/aws/services/#certificate-manager", 
+            "text": "Get ssl certificates for free if your using AWS services and registering the domains through route 53.\nManaging SSL certificates.", 
+            "title": "Certificate Manager"
+        }, 
+        {
+            "location": "/aws/services/#cloudhsm", 
+            "text": "HSM [Hardware Security Modules]\nDedicated bits of hardware used to store your keys eg: private and public keys.\nThe keys may be used to access your EC2 instances. Can used these keys to encrypy AWS objects.", 
+            "title": "CloudHSM"
+        }, 
+        {
+            "location": "/aws/services/#directory-service", 
+            "text": "A way of integration AD with AWS services.", 
+            "title": "Directory Service"
+        }, 
+        {
+            "location": "/aws/services/#waf-web-application-firewall", 
+            "text": "Prevents cross site scripting, SQL injections etc. Prevents malicious users.", 
+            "title": "WAF : Web Application Firewall"
+        }, 
+        {
+            "location": "/aws/services/#shield", 
+            "text": "Shield is basically DDOS mitigation.", 
+            "title": "Shield"
+        }, 
+        {
+            "location": "/aws/services/#artifact", 
+            "text": "For Audit and compliance. Way of downloading and inspecting Amazons documentation.", 
+            "title": "Artifact"
+        }, 
+        {
+            "location": "/aws/services/#mobile-services", 
+            "text": "", 
+            "title": "Mobile services"
+        }, 
+        {
+            "location": "/aws/services/#mobile-hub", 
+            "text": "management console for mobile applications.", 
+            "title": "Mobile hub"
+        }, 
+        {
+            "location": "/aws/services/#pinpoint", 
+            "text": "New service\nUse targetted push notification", 
+            "title": "Pinpoint"
+        }, 
+        {
+            "location": "/aws/services/#appsync", 
+            "text": "Updates web and mobile data. Updates data when the phone comes back online.", 
+            "title": "AppSync"
+        }, 
+        {
+            "location": "/aws/services/#device-farm", 
+            "text": "Test mobile application on real android and ios devices", 
+            "title": "Device Farm"
+        }, 
+        {
+            "location": "/aws/services/#mobile-analytics", 
+            "text": "Analytics for your mobile application", 
+            "title": "Mobile Analytics"
+        }, 
+        {
+            "location": "/aws/services/#application-integration", 
+            "text": "", 
+            "title": "Application Integration"
+        }, 
+        {
+            "location": "/aws/services/#step-functions", 
+            "text": "Managing your lamda function and manage the steps to go through it.", 
+            "title": "Step functions"
+        }, 
+        {
+            "location": "/aws/services/#amazon-mq", 
+            "text": "For message queues. similar to Rabbit MQ.", 
+            "title": "Amazon MQ"
+        }, 
+        {
+            "location": "/aws/services/#sns", 
+            "text": "A notification service. Will be setting a billing alarm.", 
+            "title": "SNS"
+        }, 
+        {
+            "location": "/aws/services/#sqs", 
+            "text": "One of the oldest services.\nA way of decoupling your infrastructure.", 
+            "title": "SQS"
+        }, 
+        {
+            "location": "/aws/services/#swf-simple-workflow-service", 
+            "text": "", 
+            "title": "SWF :Simple Workflow Service"
+        }, 
+        {
+            "location": "/aws/services/#customer-engagement", 
+            "text": "", 
+            "title": "Customer engagement"
+        }, 
+        {
+            "location": "/aws/services/#connect", 
+            "text": "A contact center as a service. Similar to having a call center on the cloud.", 
+            "title": "Connect"
+        }, 
+        {
+            "location": "/aws/services/#simple-email-service", 
+            "text": "A great way of sending large amount of emails.", 
+            "title": "Simple email service"
+        }, 
+        {
+            "location": "/aws/services/#business-productivity", 
+            "text": "", 
+            "title": "Business Productivity"
+        }, 
+        {
+            "location": "/aws/services/#alexa-for-business", 
+            "text": "Use it to dial into a meeting room", 
+            "title": "Alexa for Business"
+        }, 
+        {
+            "location": "/aws/services/#chime", 
+            "text": "Like google hangout. Record meetings.", 
+            "title": "Chime"
+        }, 
+        {
+            "location": "/aws/services/#work-docs", 
+            "text": "Like a dropbox in AWS", 
+            "title": "Work Docs"
+        }, 
+        {
+            "location": "/aws/services/#workmail", 
+            "text": "Like office 365", 
+            "title": "WorkMail"
+        }, 
+        {
+            "location": "/aws/services/#desktop-and-app-streaming", 
+            "text": "", 
+            "title": "Desktop and App Streaming"
+        }, 
+        {
+            "location": "/aws/services/#workspaces", 
+            "text": "Is a VDI solution. Accessing a desktop on the cloud on your device.", 
+            "title": "Workspaces"
+        }, 
+        {
+            "location": "/aws/services/#appstream-20", 
+            "text": "Way of live streaming the application. Like Citrix.", 
+            "title": "AppStream 2.0"
+        }, 
+        {
+            "location": "/aws/services/#iot-internet-of-things", 
+            "text": "", 
+            "title": "IOT Internet Of Things"
+        }, 
+        {
+            "location": "/aws/services/#iot", 
+            "text": "", 
+            "title": "iOT"
+        }, 
+        {
+            "location": "/aws/services/#iot-device-management", 
+            "text": "", 
+            "title": "iOT Device Management"
+        }, 
+        {
+            "location": "/aws/services/#freertos", 
+            "text": "", 
+            "title": "FreeRTOS"
+        }, 
+        {
+            "location": "/aws/services/#greengrass", 
+            "text": "", 
+            "title": "Greengrass"
+        }, 
+        {
+            "location": "/aws/services/#game-development", 
+            "text": "", 
+            "title": "Game Development"
+        }, 
+        {
+            "location": "/aws/services/#gamelift", 
+            "text": "Service to help you develop a game.", 
+            "title": "GameLift"
         }
     ]
 }
