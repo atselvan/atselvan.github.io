@@ -2,7 +2,7 @@
 site_name: Private Square's Documentation
 site_description: 
 site_author: 'Allan Tony Selvan'
-site_url: 'https://atselvan.github.io'
+site_url: 'https://docs.privatesquare.in'
 
 # Docs dir
 docs_dir: './docs/'
@@ -12,23 +12,50 @@ repo_name: 'atselvan/atselvan.github.io'
 repo_url: 'https://github.com/atselvan/atselvan.github.io'
 
 # Copyright
-copyright: 'Copyright &copy; 2017 - 2018 Private Square'
+copyright: 'Copyright &copy; 2016 - 2018 Private Square'
 
 pages:
 - Home: 
   - Welcome: index.md
-  - CICD fundamentals: blog/cicd-fundamentals.md
-  - Networking fundamentals: blog/networking-fundamentals.md
-  - Understanding IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
+  - CICD: blog/cicd-fundamentals.md
+  - Networking: blog/networking-fundamentals.md
+  - Cloud Computing : blog/cloud-computing.md
+  - Internet Of Things : blog/internet-of-things.md
+  - IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
+- CICD:
+  - Introduction: blog/cicd-fundamentals.md
+  - Jenkins: 
+      - Introduction: cicd/jenkins/index.md
 - Docker:
-  - Home: docker/index.md
-  - Docker compose: docker/docker-compose.md
-  - Docker machine: docker/docker-machine.md
-  - Docker networks: docker/docker-networks.md
-  - Docker secrets: docker/docker-secrets.md
-- AWS: 
-  - Zones : aws/global-infrastructure.md
-  - Services : aws/services.md
+  - Introduction : docker/index.md
+  - Docker Compose: docker/docker-compose.md
+  - Docker Machine: docker/docker-machine.md
+  - Docker Networks: docker/docker-networks.md
+  - Docker Secrets: docker/docker-secrets.md
+- Golang:
+  - Introduction: go/index.md
+- AWS:
+  - Introduction : aws/index.md
+  - Cloud Computing : blog/cloud-computing.md
+  - Global Infrastructure : aws/global-infrastructure.md
+  - Services : 
+    - Security, Identity and Compliance : aws/services/security-identity-compliance.md
+    - Compute : aws/services/compute.md
+    - Storage : aws/services/storage.md
+    - Database : aws/services/database.md
+    - Migration : aws/services/migration.md
+    - Networking and Content Delivery : aws/services/networking-and-content-delivery.md
+    - Developer Tools : aws/services/developer-tools.md
+    - Management Tools : aws/services/management-tools.md
+    - Machine Learning : aws/services/machine-learning.md
+    - Analytics : aws/services/analytics.md
+    - Mobile Services : aws/services/mobile-services.md
+    - Application Integration : aws/services/application-integration.md
+    - Customer Engagement : aws/services/customer-engagement.md
+    - Business Productivity : aws/services/business-productivity.md
+    - Desktop and App Streaming : aws/services/desktop-and-app-streaming.md
+    - Internet Of Things : aws/services/internet-of-things.md
+    - Game Development : aws/services/game-development.md
 
 # Theme
 theme: 
@@ -62,7 +89,6 @@ extra:
       link: 'https://twitter.com/allanselvan'
     - type: 'instagram'
       link: 'https://www.instagram.com/_atselvan'
-  disqus: 'privatesquare'
 
 # Extensions
 markdown_extensions:
