@@ -41,4 +41,4 @@ While continuous deployment may not be right for every company, continuous deliv
 ## _References_
 
 1. [Cloudbees trainings](https://go.cloudbees.com/)
-2. [Continuous delivery Vs continuous deployment by puppet](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)
+2. [Continuous delivery Vs continuous deployment](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)
