@@ -4,60 +4,38 @@
     
         
     <url>
-     <loc>https://atselvan.github.io/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/blog/cicd-fundamentals/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/blog/cicd-fundamentals/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/blog/networking-fundamentals/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/blog/networking-fundamentals/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/blog/understanding-iaas-paas-saas/</loc>
-     <lastmod>2018-02-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://atselvan.github.io/docker/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/docker/docker-compose/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/blog/internet-of-things/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/docker/docker-machine/</loc>
-     <lastmod>2018-02-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://atselvan.github.io/docker/docker-networks/</loc>
-     <lastmod>2018-02-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://atselvan.github.io/docker/docker-secrets/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in/blog/understanding-iaas-paas-saas/</loc>
+     <lastmod>2018-03-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -66,14 +44,116 @@
     
         
     <url>
-     <loc>https://atselvan.github.io/aws/global-infrastructure/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://atselvan.github.io/aws/services/</loc>
-     <lastmod>2018-02-13</lastmod>
+     <loc>https://docs.privatesquare.in</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/docker/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/docker/docker-compose/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/docker/docker-machine/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/docker/docker-networks/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/docker/docker-secrets/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/http-request/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/http-request-proxy/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/string-functions/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/slices/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/golang/modify-usage-flag/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/aws/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/aws/global-infrastructure/</loc>
+     <lastmod>2018-03-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
