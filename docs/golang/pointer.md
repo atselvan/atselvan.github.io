@@ -1,10 +1,10 @@
 # Pointers in GO
 
-## What are Pointers?
+## What are Pointers
 
 A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.
 
-## How to Use Pointers?
+## How to Use Pointers
 
 There are a few important operations, which we will do with the help of pointers very frequently. 
 
@@ -16,7 +16,7 @@ This is done by using unary operator * that returns the value of the variable lo
 
 The type *T is a pointer to a T value. Its zero value is nil
 
-## Example:
+## Example
 
 ```go
 package main
@@ -44,4 +44,5 @@ func main() {
     fmt.Println("Value of Pointer p is ", *p)
 }
 ```
+
 Unlike C, Go has no pointer arithmetic

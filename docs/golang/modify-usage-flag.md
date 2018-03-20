@@ -1,4 +1,4 @@
-# How to modify the usage flag in Go?
+# Modify Usage flag in go
 
 This can be done by modifying flag.Usage function.
 

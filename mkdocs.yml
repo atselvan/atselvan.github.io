@@ -38,7 +38,12 @@ pages:
   - Docker Networks: docker/docker-networks.md
   - Docker Secrets: docker/docker-secrets.md
 - Golang:
-  - Introduction: go/index.md
+  - Introduction: golang/index.md
+  - Http Request in Go: golang/http-request.md
+  - Http Request via a Proxy: golang/http-request-proxy.md
+  - String Functions: golang/string-functions.md
+  - Slices in Go: golang/slices.md
+  - Modify Go Usage flag: golang/modify-usage-flag.md
 - AWS:
   - Introduction : aws/index.md
   - Cloud Computing : blog/cloud-computing.md

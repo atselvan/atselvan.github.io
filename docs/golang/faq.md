@@ -1,6 +1,16 @@
 # FAQ's
 
-## 1. 
+## = vs := operator
+
+In Go, := is for declaration + assignment, whereas = is for assignment only.
+
+For example,
+
+`var foo int = 10` is the same as `foo := 10`.
+
+**_Reference_**
+
+1. [Stackoverflow](https://stackoverflow.com/questions/17891226/golang-operator-difference-between-vs)
 
 ## 2. How to measure execution time in Go?
 
@@ -27,3 +37,7 @@ https://docs.sonarqube.org/pages/viewpage.action?pageId=2392177#WebService/api/p
 https://github.com/thbar/golang-playground/blob/master/download-files.go
 
 https://medium.com/@felipedutratine/manage-config-in-golang-to-get-variables-from-file-and-env-variables-33d876887152
+
+In Golang, how to convert an error to a string?
+
+https://www.systutorials.com/qa/2169/in-golang-how-to-convert-an-error-to-a-string
