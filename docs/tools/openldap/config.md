@@ -97,6 +97,16 @@ dn: dc=privatesquare,dc=in
 objectClass: top
 objectClass: domain
 dc: privatesquare
+
+dn: ou=users,dc=privatesquare,dc=in
+objectClass: top
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=privatesquare,dc=in
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
 ```
 
 touch the contents of the ldif into a initial.ldif file and run the below command to build the data db.

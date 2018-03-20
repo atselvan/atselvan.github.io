@@ -22,16 +22,15 @@ pages:
   - Cloud Computing : blog/cloud-computing.md
   - Internet Of Things : blog/internet-of-things.md
   - IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
-- CICD:
-  - Introduction: blog/cicd-fundamentals.md
-  - Tools: 
-    - OpenLDAP:
-      - Introduction: tools/openldap/index.md
-      - Installation: tools/openldap/install.md
-      - Configuration: tools/openldap/config.md
-      - FAQ: tools/openldap/faq.md
-    - Jenkins:
-      - Introduction: tools/jenkins/index.md
+- Tools: 
+  - OpenLDAP:
+    - Introduction: tools/openldap/index.md
+    - Installation: tools/openldap/install.md
+    - Configuration: tools/openldap/config.md
+    - Server Error Codes: tools/openldap/ldap-server-error-codes.md
+    - FAQ: tools/openldap/faq.md
+  - Jenkins:
+    - Introduction: tools/jenkins/index.md
 - Docker:
   - Introduction : docker/index.md
   - Docker Compose: docker/docker-compose.md
