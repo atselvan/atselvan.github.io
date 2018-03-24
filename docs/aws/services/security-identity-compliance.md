@@ -2,52 +2,43 @@
 
 ## IAM [Identity and Access management]
 
-Essentially, IAM allows you to manage users and their level of access to the AWS console.
+IAM allows you to,
 
-What does IAM give you?
+* manage users and their level of access to the AWS console
+* have a centralised control of your AWS account
+* have shared access to your AWS account
+* configure granular permissions
+* have identity Federation
+* use multifactor Authentication
+* provide temporary access for users/devices and services when necessary
+* set up a custom password policies and password rotation policy
 
-* Centralised control of your AWS account
-* Shared access to your AWS account
-* Granular permissions
-* Identity Federation
-* Multifactor Authentication
-* Provide temporary access for users/devices and services where necessary
-* Allows you ti set up your own password rotation policy
-* Supports PCI DSS Compliance
+!!! info
+    IAM supports PCI DSS Compliance
 
-Crtical terms:
+### IAM Management console
 
-Users - End Users
+The IAM management console is global (its not specific to a region at this time) to the AWS environment and it allows you to manage all the benfits listed above. Its also list the security status of the AWS environment.
 
-Groups- A collection of users under one set of permissions
+![iam-management-console](../images/iam-management-console.png)
 
-Roles - You create roles and can then assign them to AWS resources
+### Crtical terms
 
-Policies - A document that defines one or more permission. Attach to users, group or a role.
-Policy documents are writen in JSON language.
+* **Users** - End Users
+* **Groups** - A collection of users under one set of permissions
+* **Roles** - You create roles and can then assign them to AWS resources
+* **Policies** - A document that defines one or more permission. A policy can be attached to users, a group or a role. Policy documents are writen in JSON language.
+* **Root account** - Root account is simply the email ID you use to sing-up to the AWS account. Root account gives you unlimited amount of access to the AWS account.
 
-Root account
+!!! info
+    Always setup MFA (Multifactor Authentication) on your root account
 
-Root account is simply the email ID you use to sing-up to the AWS account. Root account gives you unlimited amount of access to the AWS account.
+When new users are created the have no access in the aws console. They are assigned a access key id, a secret key and a password (used for login in to the AWS console) which can be viewed only once during the creation of the user and cannot be retrived later, but can be generated again.
 
-New Users
+The access and security keys are not the same as the password and cannot be used to login to the AWS console. These are meant for accessing the AWS console from the API or a CLI. On the other hand a username and password cannot be used to access AWS via the API or CLI.
 
-New users have no access when first created.
-New users are assigned Access Key ID and Secret access Keys when first created and a password for login in to the aws console. The credentials can only be viewed once and cannot be retrieved later.
-If lost they will have to be generated again.
-These are not same as a password, and you cannot use the Access key ID and the Secret access Ket to login to the AWS console.
-You can use this to access AWS via the APIs and Command line.
-Username and password cannot be used to access AWS via the API.
-
-Always setup MFA (Multifactor Authentication) on your root account.
-
-You can create and customise your own password policies and password rotation polices.
-
-IAM is universal. It does not apply to regions at this time.
-
-Power users
-
-Provides full access to AWS services and resources, but does not allow management of Users and groups.
+!!! info
+    Power user role provides full access to AWS services and resources, but does not allow management of Users and groups.
 
 ## Cognito
 
