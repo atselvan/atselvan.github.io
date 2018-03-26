@@ -918,6 +918,19 @@
     CloudFront
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-terminology" title="Key Terminology" class="md-nav__link">
+    Key Terminology
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1087,6 +1100,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../awscli/" title="AWS CLI on Mac" class="md-nav__link">
+      AWS CLI on Mac
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1123,6 +1148,19 @@
   <a href="#cloudfront" title="CloudFront" class="md-nav__link">
     CloudFront
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-terminology" title="Key Terminology" class="md-nav__link">
+    Key Terminology
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1170,7 +1208,34 @@
 <p>Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.</p>
 <p>Configure firewall, availability zones, network sider address ranges,  Network ACL's, route tables etc.</p>
 <h2 id="cloudfront">CloudFront<a class="headerlink" href="#cloudfront" title="Permanent link">&para;</a></h2>
-<p>Amazons content delivery network service.</p>
+<p>Amazons content delivery network service. A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user base on the geogra[hic locations of the user, the origin of the webpage and a content delivery server.</p>
+<div class="admonition info">
+<p class="admonition-title">What is CDN?</p>
+<p><img alt="cdn" src="../../images/cdn.png" /></p>
+</div>
+<p>Amazons CloudFront can be used to deliver your entire website including dynamic, static, streaming and ineractive content using a global network of edge locations. Requests for your content are automatically routed to the nearest edge location, so content is delivered with the best possible performance.</p>
+<h3 id="key-terminology">Key Terminology<a class="headerlink" href="#key-terminology" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Edge Location -</strong> This is the location where content will be cached. This is separate to an AWS region or Availability zone.</li>
+<li><strong>Origin -</strong> This is the origin of all the files that the CDN will distribute. This can be either an S3 Bucket, an Ec2 Instance, An Elastic Load Balancer or Route53.</li>
+<li><strong>Distribution -</strong> This is the name given to the CDN which consists of a collection of Edge Locations.<ul>
+<li><strong>Web Distribution -</strong> Typically used for websites</li>
+<li><strong>RTMP -</strong> Used for Media Streaming</li>
+</ul>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<ul>
+<li>Amazon CloudFront also works with any non-AWS origin server, which stores the original, definitive versions of your files</li>
+<li>Edge locations are not just READ only, you can write to them too</li>
+<li>Objects are cached for the life of the TTL (Time To Live)</li>
+<li>You can clear cached objects, but you will be charged</li>
+<li>You can restrict view access using signed url's or signed cookies</li>
+<li>You can create multiple origins per destribution</li>
+<li>You can set restrictions based on Geo locations (Whitelist/Blacklist)</li>
+</ul>
+</div>
 <h2 id="route-53">Route 53<a class="headerlink" href="#route-53" title="Permanent link">&para;</a></h2>
 <p>Amazons DNS service.</p>
 <h2 id="api-gateway">API Gateway<a class="headerlink" href="#api-gateway" title="Permanent link">&para;</a></h2>

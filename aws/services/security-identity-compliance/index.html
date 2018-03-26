@@ -851,6 +851,26 @@
     IAM [Identity and Access management]
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iam-management-console" title="IAM Management console" class="md-nav__link">
+    IAM Management console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crtical-terms" title="Crtical terms" class="md-nav__link">
+    Crtical terms
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1129,6 +1149,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../awscli/" title="AWS CLI on Mac" class="md-nav__link">
+      AWS CLI on Mac
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1158,6 +1190,26 @@
   <a href="#iam-identity-and-access-management" title="IAM [Identity and Access management]" class="md-nav__link">
     IAM [Identity and Access management]
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iam-management-console" title="IAM Management console" class="md-nav__link">
+    IAM Management console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crtical-terms" title="Crtical terms" class="md-nav__link">
+    Crtical terms
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1250,38 +1302,42 @@
                 
                 <h1 id="security-identity-and-compliance">Security, Identity and Compliance<a class="headerlink" href="#security-identity-and-compliance" title="Permanent link">&para;</a></h1>
 <h2 id="iam-identity-and-access-management">IAM [Identity and Access management]<a class="headerlink" href="#iam-identity-and-access-management" title="Permanent link">&para;</a></h2>
-<p>Essentially, IAM allows you to manage users and their level of access to the AWS console.</p>
-<p>What does IAM give you?</p>
+<p>IAM allows you to,</p>
 <ul>
-<li>Centralised control of your AWS account</li>
-<li>Shared access to your AWS account</li>
-<li>Granular permissions</li>
-<li>Identity Federation</li>
-<li>Multifactor Authentication</li>
-<li>Provide temporary access for users/devices and services where necessary</li>
-<li>Allows you ti set up your own password rotation policy</li>
-<li>Supports PCI DSS Compliance</li>
+<li>manage users and their level of access to the AWS console</li>
+<li>have a centralised control of your AWS account</li>
+<li>have shared access to your AWS account</li>
+<li>configure granular permissions</li>
+<li>have identity Federation</li>
+<li>use multifactor Authentication</li>
+<li>provide temporary access for users/devices and services when necessary</li>
+<li>set up a custom password policies and password rotation policy</li>
 </ul>
-<p>Crtical terms:</p>
-<p>Users - End Users</p>
-<p>Groups- A collection of users under one set of permissions</p>
-<p>Roles - You create roles and can then assign them to AWS resources</p>
-<p>Policies - A document that defines one or more permission. Attach to users, group or a role.
-Policy documents are writen in JSON language.</p>
-<p>Root account</p>
-<p>Root account is simply the email ID you use to sing-up to the AWS account. Root account gives you unlimited amount of access to the AWS account.</p>
-<p>New Users</p>
-<p>New users have no access when first created.
-New users are assigned Access Key ID and Secret access Keys when first created and a password for login in to the aws console. The credentials can only be viewed once and cannot be retrieved later.
-If lost they will have to be generated again.
-These are not same as a password, and you cannot use the Access key ID and the Secret access Ket to login to the AWS console.
-You can use this to access AWS via the APIs and Command line.
-Username and password cannot be used to access AWS via the API.</p>
-<p>Always setup MFA (Multifactor Authentication) on your root account.</p>
-<p>You can create and customise your own password policies and password rotation polices.</p>
-<p>IAM is universal. It does not apply to regions at this time.</p>
-<p>Power users</p>
-<p>Provides full access to AWS services and resources, but does not allow management of Users and groups.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>IAM supports PCI DSS Compliance</p>
+</div>
+<h3 id="iam-management-console">IAM Management console<a class="headerlink" href="#iam-management-console" title="Permanent link">&para;</a></h3>
+<p>The IAM management console is global (its not specific to a region at this time) to the AWS environment and it allows you to manage all the benfits listed above. Its also list the security status of the AWS environment.</p>
+<p><img alt="iam-management-console" src="../../images/iam-management-console.png" /></p>
+<h3 id="crtical-terms">Crtical terms<a class="headerlink" href="#crtical-terms" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Users</strong> - End Users</li>
+<li><strong>Groups</strong> - A collection of users under one set of permissions</li>
+<li><strong>Roles</strong> - You create roles and can then assign them to AWS resources</li>
+<li><strong>Policies</strong> - A document that defines one or more permission. A policy can be attached to users, a group or a role. Policy documents are writen in JSON language.</li>
+<li><strong>Root account</strong> - Root account is simply the email ID you use to sing-up to the AWS account. Root account gives you unlimited amount of access to the AWS account.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Always setup MFA (Multifactor Authentication) on your root account</p>
+</div>
+<p>When new users are created the have no access in the aws console. They are assigned a access key id, a secret key and a password (used for login in to the AWS console) which can be viewed only once during the creation of the user and cannot be retrived later, but can be generated again.</p>
+<p>The access and security keys are not the same as the password and cannot be used to login to the AWS console. These are meant for accessing the AWS console from the API or a CLI. On the other hand a username and password cannot be used to access AWS via the API or CLI.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Power user role provides full access to AWS services and resources, but does not allow management of Users and groups.</p>
+</div>
 <h2 id="cognito">Cognito<a class="headerlink" href="#cognito" title="Permanent link">&para;</a></h2>
 <p>Is a way of doing device authentication.Authenticate using FB, google etc.</p>
 <p>Use Cognito as a authentication service to get temporary access to certain AWS resources.</p>
