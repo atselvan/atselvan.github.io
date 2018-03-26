@@ -10,7 +10,30 @@ Configure firewall, availability zones, network sider address ranges,  Network A
 
 ## CloudFront
 
-Amazons content delivery network service.
+Amazons content delivery network service. A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user base on the geogra[hic locations of the user, the origin of the webpage and a content delivery server.
+
+!!! info "What is CDN?"
+    ![cdn](../images/cdn.png)
+
+Amazons CloudFront can be used to deliver your entire website including dynamic, static, streaming and ineractive content using a global network of edge locations. Requests for your content are automatically routed to the nearest edge location, so content is delivered with the best possible performance.
+
+### Key Terminology
+
+* **Edge Location -** This is the location where content will be cached. This is separate to an AWS region or Availability zone.
+* **Origin -** This is the origin of all the files that the CDN will distribute. This can be either an S3 Bucket, an Ec2 Instance, An Elastic Load Balancer or Route53.
+* **Distribution -** This is the name given to the CDN which consists of a collection of Edge Locations.
+    * **Web Distribution -** Typically used for websites
+    * **RTMP -** Used for Media Streaming
+
+!!! info
+
+    * Amazon CloudFront also works with any non-AWS origin server, which stores the original, definitive versions of your files
+    * Edge locations are not just READ only, you can write to them too
+    * Objects are cached for the life of the TTL (Time To Live)
+    * You can clear cached objects, but you will be charged
+    * You can restrict view access using signed url's or signed cookies
+    * You can create multiple origins per destribution
+    * You can set restrictions based on Geo locations (Whitelist/Blacklist)
 
 ## Route 53
 

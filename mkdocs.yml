@@ -66,6 +66,7 @@ pages:
     - Desktop and App Streaming : aws/services/desktop-and-app-streaming.md
     - Internet Of Things : aws/services/internet-of-things.md
     - Game Development : aws/services/game-development.md
+  - AWS CLI on Mac : aws/awscli.md
 
 # Theme
 theme: 
