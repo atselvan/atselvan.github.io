@@ -5,37 +5,61 @@
         
     <url>
      <loc>https://docs.privatesquare.in/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cicd-fundamentals/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/networking-fundamentals/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/blog/host-internet-accessible-website-on-laptop/</loc>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/blog/raft-consensus-algorithm/</loc>
+     <lastmod>2018-04-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/blog/container-orchestration/</loc>
+     <lastmod>2018-04-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/blog/container-orchestration-tools/</loc>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/internet-of-things/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/understanding-iaas-paas-saas/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -61,31 +85,31 @@
         
     <url>
      <loc>https://docs.privatesquare.in/docker/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-compose/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-machine/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-networks/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-secrets/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -95,37 +119,37 @@
         
     <url>
      <loc>https://docs.privatesquare.in/golang/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/http-request/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/http-request-proxy/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/string-functions/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/slices/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/modify-usage-flag/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -135,19 +159,19 @@
         
     <url>
      <loc>https://docs.privatesquare.in/aws/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/aws/global-infrastructure/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -159,7 +183,7 @@
         
     <url>
      <loc>https://docs.privatesquare.in/aws/awscli/</loc>
-     <lastmod>2018-03-27</lastmod>
+     <lastmod>2018-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
