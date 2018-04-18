@@ -2,7 +2,17 @@
 
 ## CloudWatch
 
-Is a monitoring service.
+Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS.
+
+* Dashboards - Create awesome dashboards to see what is happening with your AWS environment
+* Alarms - Allows you to set alarms that notify you when particular thresholds are hit
+* Events - CloudWatch events helps you to respond to syaye changes in your AWS resources
+* Logs - CloudWatch logs helps you to aggregate, monitor and store logs
+
+!!! note
+    Standard Monitoring = 5 min (default)
+
+    Detailed Monitoring = 1 min
 
 ## CloudFormation
 

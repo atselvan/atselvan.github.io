@@ -52,11 +52,11 @@ pages:
     - Security, Identity and Compliance : aws/services/security-identity-compliance.md
     - Compute : aws/services/compute.md
     - Storage : aws/services/storage.md
+    - Networking and Content Delivery : aws/services/networking-and-content-delivery.md
+    - Management Tools : aws/services/management-tools.md
     - Database : aws/services/database.md
     - Migration : aws/services/migration.md
-    - Networking and Content Delivery : aws/services/networking-and-content-delivery.md
     - Developer Tools : aws/services/developer-tools.md
-    - Management Tools : aws/services/management-tools.md
     - Machine Learning : aws/services/machine-learning.md
     - Analytics : aws/services/analytics.md
     - Mobile Services : aws/services/mobile-services.md

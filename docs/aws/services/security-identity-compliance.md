@@ -30,8 +30,11 @@ The IAM management console is global (its not specific to a region at this time)
 * **Policies** - A document that defines one or more permission. A policy can be attached to users, a group or a role. Policy documents are writen in JSON language.
 * **Root account** - Root account is simply the email ID you use to sing-up to the AWS account. Root account gives you unlimited amount of access to the AWS account.
 
-!!! info
+!!! note
     Always setup MFA (Multifactor Authentication) on your root account
+
+!!! info
+    A role can be attached to a running EC2 instance via the AWS management UI or via the aws CLI
 
 When new users are created the have no access in the aws console. They are assigned a access key id, a secret key and a password (used for login in to the AWS console) which can be viewed only once during the creation of the user and cannot be retrived later, but can be generated again.
 
