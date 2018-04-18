@@ -19,7 +19,11 @@ pages:
   - Welcome: index.md
   - CICD: blog/cicd-fundamentals.md
   - Networking: blog/networking-fundamentals.md
+  - Host internet accessible website on your laptop: blog/host-internet-accessible-website-on-laptop.md
   - Cloud Computing : blog/cloud-computing.md
+  - Raft Consesus Algorithm: blog/raft-consensus-algorithm.md
+  - Containers and Container Orchestration: blog/container-orchestration.md
+  - Container Orchestration Tools: blog/container-orchestration-tools.md
   - Internet Of Things : blog/internet-of-things.md
   - IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
 - Tools: 

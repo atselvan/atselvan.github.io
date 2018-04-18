@@ -1,6 +1,4 @@
-# How to host internet accessible website on your laptop
-
-https://www.techandme.se/open-port-80-443/  
+# How to host internet accessible website on your laptop?
 
 This document explains how to setup the router (ZTE H369A) for receiving the request on its public IP address and then forward the request to a computer (macbook) in the local network.
 
