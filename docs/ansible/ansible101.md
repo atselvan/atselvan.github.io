@@ -39,7 +39,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-thus, in your current directory you will have the below set of files
+thus, in your current directory you should have the below set of files
 
 ```ini
 -rw-r--r--  1 allanselvan  staff   139B May 19 08:53 README.md
@@ -51,7 +51,9 @@ thus, in your current directory you will have the below set of files
 
 !!! warning "Never commit ssh keys to git"
 
-## Create a vagrant file with the details of the servers you want for your test
+## Create a vagrant file
+
+Vagrant is used to spin up the virtual machines required for running some ansible commands
 
 filename: Vagrantfile
 
