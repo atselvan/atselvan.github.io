@@ -2,13 +2,18 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the documentation of Private Square", 
+            "text": "Welcome to the documentation of Private Square\n\n\nWhats New?\n\n\n\n\nAWS documentation on EC2\n\n\nLearn Ansible", 
             "title": "Welcome"
         }, 
         {
             "location": "/#welcome-to-the-documentation-of-private-square", 
             "text": "", 
             "title": "Welcome to the documentation of Private Square"
+        }, 
+        {
+            "location": "/#whats-new", 
+            "text": "AWS documentation on EC2  Learn Ansible", 
+            "title": "Whats New?"
         }, 
         {
             "location": "/blog/cicd-fundamentals/", 
@@ -334,6 +339,131 @@
             "location": "/blog/understanding-iaas-paas-saas/#references", 
             "text": "Microsoft Azure documentation  IBM cloud learn", 
             "title": "References"
+        }, 
+        {
+            "location": "/ansible/", 
+            "text": "Ansible\n\n\nWhat is Ansible?\n\n\nAnsible is\n\n\n\n\nan IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.\n\n\nan automation language that can describe an IT application infrastructure in Ansible playbooks.\n\n\nan automation engine that rus th playbooks\n\n\n\n\nmore information...\n\n\n\n\nAnsible tower\n\n\nAnsible tower is an enterprise framework for controlling, securing and managing your Ansible automation with an UI and RESTful API.\n\n\n\n\nWhy Ansible?\n\n\nAnsible is simple\n\n\n\n\nHuman readable automation\n\n\nNo special coding skills needed\n\n\nTasks executed in order\n\n\nGet productive quickly\n\n\nPlaybooks will run consitently accross the environments\n\n\n\n\nAnsible is powerful\n\n\n\n\nApplication deployment\n\n\nConfiguration management\n\n\nWorkflow orchestration\n\n\nOrchestrate the application lifecycle\n\n\n\n\nAnsible is agent less\n\n\n\n\nAgentless architecture\n\n\nUses OpenSSH and WinRM\n\n\nNo agents to explot or update\n\n\nMore efficent and more secure\n\n\n\n\nAnsible is cross platform\n\n\nAgentless support for all major OS varients, physical, virtual, cloud and network\n\n\nAnsible works with existing toolkits\n\n\nHomogenize existing environments by leveraging current toolsets and update mechanisms\n\n\nAnsible comes bundles with over 450 modules\n\n\nThe most popular open source communities\n\n\nInstall Ansible\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n# the most common way\n\npip install ansible\n\n\n# install on RHEL/CentOS\n\nsudo yum install ansible -y\n\n\n# install on MacOS\n\nbrew install ansible -y\n\n\n\n\n\n\nHow Ansible works?\n\n\n\n\nPlaybooks are written in YAML\n\n\nTasks are executed which sequencially invokes Ansible modules\n\n\nModules are \"Tools in the Toolkit\"\n\n\nPython, Powershell, or any language\n\nEntend Ansible simplicity to the entire stack\n\n\n\n\nModules : Run command\n\n\ncommand: takes the command and executes it.\n\n\nshell: Executes through a shell like /bin/sh so that you can pipes etc.\n\n\nscripts: Runs a local script on a remote node after transferring it.\n\n\nraw: runs a raw command without going through the Ansible module subsystem.\n\n\n\n\nInventory\n\n\nInventory is a collection of hosts (nodes) against which ansible can work with. Consists of hosts, groups and inventory-specific data (variables).\n\n\nexample:\n\n\n1\n2\n3\n4\n5\n6\n[web]\n\n\nwebserver1.example.com\n\n\nwebserver2.example.com\n\n\n\n[db]\n\n\ndbserver1.example.com\n\n\n\n\n\n\n\nThe hosts can be represented as fully qualified webnames or IP addreses aswell.\n\n\nCMDB\n\n\nCan be a custom CMDB or cloud (EC2, VMware, OpenStack, Azure, etc)\n\n\nPlugins are \"Gears in the engine\"\n\n\nCode that plugs into the core engine\n\nAdaptability for various uses and platforms", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/ansible/#ansible", 
+            "text": "", 
+            "title": "Ansible"
+        }, 
+        {
+            "location": "/ansible/#what-is-ansible", 
+            "text": "Ansible is   an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.  an automation language that can describe an IT application infrastructure in Ansible playbooks.  an automation engine that rus th playbooks   more information...   Ansible tower  Ansible tower is an enterprise framework for controlling, securing and managing your Ansible automation with an UI and RESTful API.", 
+            "title": "What is Ansible?"
+        }, 
+        {
+            "location": "/ansible/#why-ansible", 
+            "text": "", 
+            "title": "Why Ansible?"
+        }, 
+        {
+            "location": "/ansible/#ansible-is-simple", 
+            "text": "Human readable automation  No special coding skills needed  Tasks executed in order  Get productive quickly  Playbooks will run consitently accross the environments", 
+            "title": "Ansible is simple"
+        }, 
+        {
+            "location": "/ansible/#ansible-is-powerful", 
+            "text": "Application deployment  Configuration management  Workflow orchestration  Orchestrate the application lifecycle", 
+            "title": "Ansible is powerful"
+        }, 
+        {
+            "location": "/ansible/#ansible-is-agent-less", 
+            "text": "Agentless architecture  Uses OpenSSH and WinRM  No agents to explot or update  More efficent and more secure", 
+            "title": "Ansible is agent less"
+        }, 
+        {
+            "location": "/ansible/#ansible-is-cross-platform", 
+            "text": "Agentless support for all major OS varients, physical, virtual, cloud and network", 
+            "title": "Ansible is cross platform"
+        }, 
+        {
+            "location": "/ansible/#ansible-works-with-existing-toolkits", 
+            "text": "Homogenize existing environments by leveraging current toolsets and update mechanisms", 
+            "title": "Ansible works with existing toolkits"
+        }, 
+        {
+            "location": "/ansible/#ansible-comes-bundles-with-over-450-modules", 
+            "text": "", 
+            "title": "Ansible comes bundles with over 450 modules"
+        }, 
+        {
+            "location": "/ansible/#the-most-popular-open-source-communities", 
+            "text": "", 
+            "title": "The most popular open source communities"
+        }, 
+        {
+            "location": "/ansible/#install-ansible", 
+            "text": "1\n2\n3\n4\n5\n6\n7\n8 # the most common way \npip install ansible # install on RHEL/CentOS \nsudo yum install ansible -y # install on MacOS \nbrew install ansible -y", 
+            "title": "Install Ansible"
+        }, 
+        {
+            "location": "/ansible/#how-ansible-works", 
+            "text": "", 
+            "title": "How Ansible works?"
+        }, 
+        {
+            "location": "/ansible/#playbooks-are-written-in-yaml", 
+            "text": "Tasks are executed which sequencially invokes Ansible modules", 
+            "title": "Playbooks are written in YAML"
+        }, 
+        {
+            "location": "/ansible/#modules-are-tools-in-the-toolkit", 
+            "text": "Python, Powershell, or any language \nEntend Ansible simplicity to the entire stack   Modules : Run command  command: takes the command and executes it.  shell: Executes through a shell like /bin/sh so that you can pipes etc.  scripts: Runs a local script on a remote node after transferring it.  raw: runs a raw command without going through the Ansible module subsystem.", 
+            "title": "Modules are \"Tools in the Toolkit\""
+        }, 
+        {
+            "location": "/ansible/#inventory", 
+            "text": "Inventory is a collection of hosts (nodes) against which ansible can work with. Consists of hosts, groups and inventory-specific data (variables).  example:  1\n2\n3\n4\n5\n6 [web]  webserver1.example.com  webserver2.example.com  [db]  dbserver1.example.com    The hosts can be represented as fully qualified webnames or IP addreses aswell.", 
+            "title": "Inventory"
+        }, 
+        {
+            "location": "/ansible/#cmdb", 
+            "text": "Can be a custom CMDB or cloud (EC2, VMware, OpenStack, Azure, etc)", 
+            "title": "CMDB"
+        }, 
+        {
+            "location": "/ansible/#plugins-are-gears-in-the-engine", 
+            "text": "Code that plugs into the core engine \nAdaptability for various uses and platforms", 
+            "title": "Plugins are \"Gears in the engine\""
+        }, 
+        {
+            "location": "/ansible/ansible101/", 
+            "text": "Running some Ansible command\n\n\nTo start learning ansible you need some space virtual machines to get started and trigger your command on.\n\n\nYou can easily avail them by using Virtual box. But spinning-up/destroying a server on virtual box manually can be time consuming.\n\n\nTo add a level of automation to this you can use the combination of Virtual box and vagrant.\n\n\n\n\nI am asuming that you have virtual box and vagrant installed on your host system\n\n\n\n\nCreate a ssh key\n\n\n1\nssh-keygen -t rsa -C \nansible\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\nGenerating public/private rsa key pair.\n\n# Enter the path ./id_rsa to store it at the current location\n\nEnter file in which to save the key \n(\n/Users/allanselvan/.ssh/id_rsa\n)\n: ./id_rsa\n\n# Leave the passphrase empty\n\nEnter passphrase \n(\nempty \nfor\n no passphrase\n)\n:\nEnter same passphrase again:\nYour identification has been saved in ./id_rsa.\nYour public key has been saved in ./id_rsa.pub.\nThe key fingerprint is:\nSHA256:Ib5jUXjsbd5eDNDoLKw9qzhbJPoh17VAfYH2CnYJV/k ansible\nThe key\ns randomart image is:\n+---\n[\nRSA \n2048\n]\n----+\n\n|\n         oo.     \n|\n\n\n|\n      .++ .+     \n|\n\n\n|\n      ++*o+..    \n|\n\n\n|\n     oo*o*..E    \n|\n\n\n|\n    ..\n=\noS.\n=\n .    \n|\n\n\n|\n   . + B.\n=\n . o   \n|\n\n\n|\n  o o B + . . o  \n|\n\n\n|\n   +.\n=\n . o . .   \n|\n\n\n|\n    +o...   .    \n|\n\n+----\n[\nSHA256\n]\n-----+\n\n\n\n\n\n\nthus, in your current directory you will have the below set of files\n\n\n1\n2\n3\n4\n5\n-rw-r--r--  1 allanselvan  staff   139B May 19 08:53 README.md\n\n\n-rw-------  1 allanselvan  staff   1.6K May 19 09:40 id_rsa\n\n\n-rw-r--r--  1 allanselvan  staff   389B May 19 09:40 id_rsa.pub\n\n\n-rw-r--r--  1 allanselvan  staff   2.0K May 19 09:47 Vagrantfile\n\n\n-rw-r--r--  1 allanselvan  staff   117B May 19 10:00 hosts\n\n\n\n\n\n\n\n\n\nNever commit ssh keys to git\n\n\n\n\nCreate a vagrant file with the details of the servers you want for your test\n\n\nfilename: Vagrantfile\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n# encoding: utf-8\n\n\n# -*- mode: ruby -*-\n\n\n# vi: set ft=ruby :\n\n\nVagrant.configure\n(\n2\n)\n \ndo\n \n|\nconfig\n|\n\nconfig.vm.box \n=\n \ncentos/7\n\nconfig.vm.provider \nvirtualbox\n \ndo\n \n|\nv\n|\n\n  v.memory \n=\n \n1024\n\nend\n\n\n$provision\n \n=\n \nPROVISION\n\n\nsudo su -\n\n\nyum update -y\n\n\nyum install httpd -y\n\n\nservice httpd start\n\n\necho \nThis is my test Jenkins system\n \n /var/www/html/index.html\n\n\nPROVISION\n\n\n\n$installAnsible\n \n=\n \nAnsible\n\n\nsudo su -\n\n\nyum update -y\n\n\nyum install ansible -y\n\n\nAnsible\n\n\nconfig.vm.define \njenkins\n \ndo\n \n|\njenkins\n|\n\n  jenkins.vm.box \n=\n \ncentos/7\n\n  config.vm.provider \nvirtualbox\n \ndo\n \n|\nv\n|\n\n    v.name \n=\n \njenkins\n\n  end\n  jenkins.vm.hostname \n=\n \njenkins\n\n  jenkins.vm.network \nprivate_network\n, ip: \n192.168.1.80\n\n  jenkins.vm.network \nforwarded_port\n, guest: \n8080\n, host: \n8080\n\n  jenkins.vm.network \nforwarded_port\n, guest: \n22\n, host: \n2201\n, id: \nssh\n\n  jenkins.vm.provision \nshell\n, inline: \n$provision\n\n  jenkins.vm.provision \nfile\n, source: \n./id_rsa.pub\n, destination: \n~/.ssh/id_rsa.pub\n\n  jenkins.vm.provision \nshell\n, inline: \ncat ~vagrant/.ssh/id_rsa.pub \n ~vagrant/.ssh/authorized_keys\n\nend\n\nconfig.vm.define \nnexus\n \ndo\n \n|\nnexus\n|\n\n  nexus.vm.box \n=\n \ncentos/7\n\n  config.vm.provider \nvirtualbox\n \ndo\n \n|\nv\n|\n\n    v.name \n=\n \nnexus\n\n  end\n  nexus.vm.hostname \n=\n \nnexus\n\n  nexus.vm.network \nprivate_network\n, ip: \n192.168.1.81\n\n  nexus.vm.network \nforwarded_port\n, guest: \n8081\n, host: \n8081\n\n  nexus.vm.network \nforwarded_port\n, guest: \n22\n, host: \n2202\n, id: \nssh\n\n  nexus.vm.provision \nshell\n, inline: \n$provision\n\n  nexus.vm.provision \nfile\n, source: \n./id_rsa.pub\n, destination: \n~/.ssh/id_rsa.pub\n\n  nexus.vm.provision \nshell\n, inline: \ncat ~vagrant/.ssh/id_rsa.pub \n ~vagrant/.ssh/authorized_keys\n\nend\n\nconfig.vm.define \nansible\n \ndo\n \n|\nansible\n|\n\n  ansible.vm.box \n=\n \ncentos/7\n\n  config.vm.provider \nvirtualbox\n \ndo\n \n|\nv\n|\n\n    v.name \n=\n \nansible\n\n  end\n  ansible.vm.hostname \n=\n \nansible\n\n  ansible.vm.network \nprivate_network\n, ip: \n192.168.1.83\n\n  ansible.vm.network \nforwarded_port\n, guest: \n22\n, host: \n2203\n, id: \nssh\n\n  ansible.vm.provision \nshell\n, inline: \n$installAnsible\n\n  ansible.vm.provision \nfile\n, source: \n./id_rsa\n, destination: \n~/.ssh/id_rsa\n\nend\n\nend\n\n\n\n\n\n\nAs part of the vagrant setup the ssh key is configured on all the three servers so that the ansible machine is able to ssh to the jenkins and nexus machines.\n\n\n\n\nMake sure the ssh key you created is stored parallel to your Vagrantfile before you execute the vagrant up command.\n\n\n\n\n\n\nVagrant commands\n\n\nRun \nvagrant up\n to run the virtual machines\n\n\nRun \nvagrant destroy -f\n if you wish to destroy the virtual machines\n\n\nRun \nvagrant provision\n to provision the virtual machines\n\n\nRun \nvagrant ssh vagrant_box_name\n to ssh connect into a machine\n\n\n\n\nCreate the ansible inventory file\n\n\nfilename: hosts\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n[jenkins]\n\n\n192.168.1.80\n\n\n\n[nexus]\n\n\n192.168.1.81\n\n\n\n[all:vars]\n\n\nansible_user\n=\nvagrant\n\n\nansible_ssh_private_key_file\n=\n./id_rsa\n\n\n\n\n\n\n\nAs my private key is not in the default path ~/.ssh I have also configure the path to the private key file in my inventory to establish a successful connection to the target machines.\n\n\nRun your first command\n\n\n\n\nInfo\n\n\nIf you have ansible installed on your host machine you can run the commands from your host machine itself.\n\n\nBut if you don't! No worries! You can ssh into the ansible machine \nvagrant ssh ansible\n, browse to the /vargrant directory (the directory of your Vagrantfile is automatically copied to the /vagrant directory of your vagrant boxes) and then run your ansible commands\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n# check if you are able to connect to all the hosts in your inventory\n\nansible all -i hosts -m ping\n\noutput:\n\n192\n.168.1.80 \n|\n \nSUCCESS\n \n=\n \n{\n\n    \nchanged\n: false,\n    \nping\n: \npong\n\n\n}\n\n\n192\n.168.1.81 \n|\n \nSUCCESS\n \n=\n \n{\n\n    \nchanged\n: false,\n    \nping\n: \npong\n\n\n}\n\n\n\n\n\n\n\nTry out some more commands\n\n\n1\n2\n3\n4\n5\n6\n# run the uptime command on all the hosts in the jenkins group\n\nansible jenkins -i hosts -m \ncommand\n -a uptime\n\noutput:\n\n192\n.168.1.80 \n|\n SUCCESS \n|\n \nrc\n=\n0\n \n\n \n20\n:34:21 up  \n1\n:05,  \n1\n user,  load average: \n0\n.00, \n0\n.01, \n0\n.05\n\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n# run the hostname command on all the hosts in the inventory\n\nansible all -i hosts -m \ncommand\n -a hostname\n\noutput:\n\n192\n.168.1.80 \n|\n SUCCESS \n|\n \nrc\n=\n0\n \n\njenkins\n\n\n192\n.168.1.81 \n|\n SUCCESS \n|\n \nrc\n=\n0\n \n\nnexus\n\n\n\n\n\n\n1\n2\n# gather information about your local machine\n\nansible localhost -m setup\n\n\n\n\n\n\n1\n2\n# gather information about all the hosts in your inventory\n\nansible all -i hosts -m setup\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n# install git package on all the hosts in the inventory as a root user\n\nansible all -i hosts -m yum -a \nname=git state=present\n --become-user root -b\n\n\n# for installing git with yum you need to escalate your rights to root, for doing this -b and -become-user=root arguments are used\n\n\n\n# check the installation by ssh-ing into the vagrant box\n\nvagrant ssh jenkins\n\n\n# check if git exists\n\ngit version\n\noutput:\ngit version \n1\n.8.3.1\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n# install docker package on all the hosts in the inventory as a root user\n\nansible all -i hosts -m yum -a \nname=docker state=present\n --become-user root -b\n\n\n# check the installation by ssh-ing into the vagrant box\n\nvagrant ssh nexus\n\n\n# check if git exists\n\ndocker version\n\noutput:\nClient:\n Version:         \n1\n.13.1\n API version:     \n1\n.26\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n# install httpd package on all the hosts in the inventory as a root user\n\nansible all -i hosts -m yum -a \nname=httpd state=present\n\n\n\n# hhtpd already exists on the hosts hence you would get the below message\n\n\noutput:\n\n192\n.168.1.80 \n|\n \nSUCCESS\n \n=\n \n{\n\n    \nchanged\n: false,\n    \nmsg\n: \n,\n    \nrc\n: \n0\n,\n    \nresults\n: \n[\n\n        \nhttpd-2.4.6-80.el7.centos.x86_64 providing httpd is already installed\n\n    \n]\n\n\n}\n\n\n192\n.168.1.81 \n|\n \nSUCCESS\n \n=\n \n{\n\n    \nchanged\n: false,\n    \nmsg\n: \n,\n    \nrc\n: \n0\n,\n    \nresults\n: \n[\n\n        \nhttpd-2.4.6-80.el7.centos.x86_64 providing httpd is already installed\n\n    \n]\n\n\n}", 
+            "title": "Ansible 101"
+        }, 
+        {
+            "location": "/ansible/ansible101/#running-some-ansible-command", 
+            "text": "To start learning ansible you need some space virtual machines to get started and trigger your command on.  You can easily avail them by using Virtual box. But spinning-up/destroying a server on virtual box manually can be time consuming.  To add a level of automation to this you can use the combination of Virtual box and vagrant.   I am asuming that you have virtual box and vagrant installed on your host system", 
+            "title": "Running some Ansible command"
+        }, 
+        {
+            "location": "/ansible/ansible101/#create-a-ssh-key", 
+            "text": "1 ssh-keygen -t rsa -C  ansible     1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22 Generating public/private rsa key pair. # Enter the path ./id_rsa to store it at the current location \nEnter file in which to save the key  ( /Users/allanselvan/.ssh/id_rsa ) : ./id_rsa # Leave the passphrase empty \nEnter passphrase  ( empty  for  no passphrase ) :\nEnter same passphrase again:\nYour identification has been saved in ./id_rsa.\nYour public key has been saved in ./id_rsa.pub.\nThe key fingerprint is:\nSHA256:Ib5jUXjsbd5eDNDoLKw9qzhbJPoh17VAfYH2CnYJV/k ansible\nThe key s randomart image is:\n+--- [ RSA  2048 ] ----+ |          oo.      |  |       .++ .+      |  |       ++*o+..     |  |      oo*o*..E     |  |     .. = oS. =  .     |  |    . + B. =  . o    |  |   o o B + . . o   |  |    +. =  . o . .    |  |     +o...   .     | \n+---- [ SHA256 ] -----+   thus, in your current directory you will have the below set of files  1\n2\n3\n4\n5 -rw-r--r--  1 allanselvan  staff   139B May 19 08:53 README.md  -rw-------  1 allanselvan  staff   1.6K May 19 09:40 id_rsa  -rw-r--r--  1 allanselvan  staff   389B May 19 09:40 id_rsa.pub  -rw-r--r--  1 allanselvan  staff   2.0K May 19 09:47 Vagrantfile  -rw-r--r--  1 allanselvan  staff   117B May 19 10:00 hosts     Never commit ssh keys to git", 
+            "title": "Create a ssh key"
+        }, 
+        {
+            "location": "/ansible/ansible101/#create-a-vagrant-file-with-the-details-of-the-servers-you-want-for-your-test", 
+            "text": "filename: Vagrantfile   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65 # encoding: utf-8  # -*- mode: ruby -*-  # vi: set ft=ruby : \n\nVagrant.configure ( 2 )   do   | config | \nconfig.vm.box  =   centos/7 \nconfig.vm.provider  virtualbox   do   | v | \n  v.memory  =   1024 \nend $provision   =   PROVISION  sudo su -  yum update -y  yum install httpd -y  service httpd start  echo  This is my test Jenkins system    /var/www/html/index.html  PROVISION  $installAnsible   =   Ansible  sudo su -  yum update -y  yum install ansible -y  Ansible \n\nconfig.vm.define  jenkins   do   | jenkins | \n  jenkins.vm.box  =   centos/7 \n  config.vm.provider  virtualbox   do   | v | \n    v.name  =   jenkins \n  end\n  jenkins.vm.hostname  =   jenkins \n  jenkins.vm.network  private_network , ip:  192.168.1.80 \n  jenkins.vm.network  forwarded_port , guest:  8080 , host:  8080 \n  jenkins.vm.network  forwarded_port , guest:  22 , host:  2201 , id:  ssh \n  jenkins.vm.provision  shell , inline:  $provision \n  jenkins.vm.provision  file , source:  ./id_rsa.pub , destination:  ~/.ssh/id_rsa.pub \n  jenkins.vm.provision  shell , inline:  cat ~vagrant/.ssh/id_rsa.pub   ~vagrant/.ssh/authorized_keys \nend\n\nconfig.vm.define  nexus   do   | nexus | \n  nexus.vm.box  =   centos/7 \n  config.vm.provider  virtualbox   do   | v | \n    v.name  =   nexus \n  end\n  nexus.vm.hostname  =   nexus \n  nexus.vm.network  private_network , ip:  192.168.1.81 \n  nexus.vm.network  forwarded_port , guest:  8081 , host:  8081 \n  nexus.vm.network  forwarded_port , guest:  22 , host:  2202 , id:  ssh \n  nexus.vm.provision  shell , inline:  $provision \n  nexus.vm.provision  file , source:  ./id_rsa.pub , destination:  ~/.ssh/id_rsa.pub \n  nexus.vm.provision  shell , inline:  cat ~vagrant/.ssh/id_rsa.pub   ~vagrant/.ssh/authorized_keys \nend\n\nconfig.vm.define  ansible   do   | ansible | \n  ansible.vm.box  =   centos/7 \n  config.vm.provider  virtualbox   do   | v | \n    v.name  =   ansible \n  end\n  ansible.vm.hostname  =   ansible \n  ansible.vm.network  private_network , ip:  192.168.1.83 \n  ansible.vm.network  forwarded_port , guest:  22 , host:  2203 , id:  ssh \n  ansible.vm.provision  shell , inline:  $installAnsible \n  ansible.vm.provision  file , source:  ./id_rsa , destination:  ~/.ssh/id_rsa \nend\n\nend   As part of the vagrant setup the ssh key is configured on all the three servers so that the ansible machine is able to ssh to the jenkins and nexus machines.   Make sure the ssh key you created is stored parallel to your Vagrantfile before you execute the vagrant up command.    Vagrant commands  Run  vagrant up  to run the virtual machines  Run  vagrant destroy -f  if you wish to destroy the virtual machines  Run  vagrant provision  to provision the virtual machines  Run  vagrant ssh vagrant_box_name  to ssh connect into a machine", 
+            "title": "Create a vagrant file with the details of the servers you want for your test"
+        }, 
+        {
+            "location": "/ansible/ansible101/#create-the-ansible-inventory-file", 
+            "text": "filename: hosts  1\n2\n3\n4\n5\n6\n7\n8\n9 [jenkins]  192.168.1.80  [nexus]  192.168.1.81  [all:vars]  ansible_user = vagrant  ansible_ssh_private_key_file = ./id_rsa    As my private key is not in the default path ~/.ssh I have also configure the path to the private key file in my inventory to establish a successful connection to the target machines.", 
+            "title": "Create the ansible inventory file"
+        }, 
+        {
+            "location": "/ansible/ansible101/#run-your-first-command", 
+            "text": "Info  If you have ansible installed on your host machine you can run the commands from your host machine itself.  But if you don't! No worries! You can ssh into the ansible machine  vagrant ssh ansible , browse to the /vargrant directory (the directory of your Vagrantfile is automatically copied to the /vagrant directory of your vagrant boxes) and then run your ansible commands    1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 # check if you are able to connect to all the hosts in your inventory \nansible all -i hosts -m ping\n\noutput: 192 .168.1.80  |   SUCCESS   =   { \n     changed : false,\n     ping :  pong  }  192 .168.1.81  |   SUCCESS   =   { \n     changed : false,\n     ping :  pong  }", 
+            "title": "Run your first command"
+        }, 
+        {
+            "location": "/ansible/ansible101/#try-out-some-more-commands", 
+            "text": "1\n2\n3\n4\n5\n6 # run the uptime command on all the hosts in the jenkins group \nansible jenkins -i hosts -m  command  -a uptime\n\noutput: 192 .168.1.80  |  SUCCESS  |   rc = 0   \n  20 :34:21 up   1 :05,   1  user,  load average:  0 .00,  0 .01,  0 .05   1\n2\n3\n4\n5\n6\n7\n8\n9 # run the hostname command on all the hosts in the inventory \nansible all -i hosts -m  command  -a hostname\n\noutput: 192 .168.1.80  |  SUCCESS  |   rc = 0   \njenkins 192 .168.1.81  |  SUCCESS  |   rc = 0   \nnexus   1\n2 # gather information about your local machine \nansible localhost -m setup   1\n2 # gather information about all the hosts in your inventory \nansible all -i hosts -m setup    1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 # install git package on all the hosts in the inventory as a root user \nansible all -i hosts -m yum -a  name=git state=present  --become-user root -b # for installing git with yum you need to escalate your rights to root, for doing this -b and -become-user=root arguments are used  # check the installation by ssh-ing into the vagrant box \nvagrant ssh jenkins # check if git exists \ngit version\n\noutput:\ngit version  1 .8.3.1    1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 # install docker package on all the hosts in the inventory as a root user \nansible all -i hosts -m yum -a  name=docker state=present  --become-user root -b # check the installation by ssh-ing into the vagrant box \nvagrant ssh nexus # check if git exists \ndocker version\n\noutput:\nClient:\n Version:          1 .13.1\n API version:      1 .26    1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22 # install httpd package on all the hosts in the inventory as a root user \nansible all -i hosts -m yum -a  name=httpd state=present  # hhtpd already exists on the hosts hence you would get the below message \n\noutput: 192 .168.1.80  |   SUCCESS   =   { \n     changed : false,\n     msg :  ,\n     rc :  0 ,\n     results :  [ \n         httpd-2.4.6-80.el7.centos.x86_64 providing httpd is already installed \n     ]  }  192 .168.1.81  |   SUCCESS   =   { \n     changed : false,\n     msg :  ,\n     rc :  0 ,\n     results :  [ \n         httpd-2.4.6-80.el7.centos.x86_64 providing httpd is already installed \n     ]  }", 
+            "title": "Try out some more commands"
         }, 
         {
             "location": "/tools/openldap/", 
