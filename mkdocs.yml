@@ -27,6 +27,9 @@ pages:
   - Internet Of Things : blog/internet-of-things.md
   - IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
 - Tools: 
+  - Ansible:
+    - Index : ansible/index.md
+    - Ansible 101 : ansible/ansible101.md
   - OpenLDAP:
     - Introduction: tools/openldap/index.md
     - Installation: tools/openldap/install.md
@@ -71,7 +74,6 @@ pages:
     - Internet Of Things : aws/services/internet-of-things.md
     - Game Development : aws/services/game-development.md
   - AWS CLI on Mac : aws/awscli.md
-
 # Theme
 theme: 
   name: 'material'
