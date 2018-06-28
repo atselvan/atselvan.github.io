@@ -111,3 +111,40 @@ Can be a custom CMDB or cloud (EC2, VMware, OpenStack, Azure, etc)
 
 Code that plugs into the core engine  
 Adaptability for various uses and platforms
+
+## Variables
+
+Ansible can work on metadata from various sources and manage their context in the form of variables.
+
+### Variable precedence
+
+![variable-precedence](./images/variable-precedence.png)
+
+## Tasks
+
+Set of commands that run sequentially
+
+## Handler Tasks
+
+Handlers are special tasks that run at the end of a play if notified by another task.
+
+if a configuration file gets changed notify a service restart start it needs to run.
+
+## Plays and Playbooks
+
+Plays are ordered set of tasks to execute against host selections from your inventory.
+
+A playbook is a file containing one or more plays.
+
+## Roles
+
+Roles are packages of closely related Ansible content that can be shared more easily than plays alone.
+
+Example role structure:
+
+![example-role-structure](./images/example-role-structure.png)
+
+How to use roles in a playbook?
+
+![using-roles-in-playbook](./images/using-roles-in-playbook.png)
+
