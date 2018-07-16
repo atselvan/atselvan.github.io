@@ -5,83 +5,61 @@
         
     <url>
      <loc>https://docs.privatesquare.in/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cicd-fundamentals/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/networking-fundamentals/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/host-internet-accessible-website-on-laptop/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/raft-consensus-algorithm/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/container-orchestration/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/container-orchestration-tools/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/internet-of-things/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/understanding-iaas-paas-saas/</loc>
-     <lastmod>2018-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://docs.privatesquare.in</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.privatesquare.in</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.privatesquare.in</loc>
-     <lastmod></lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -91,31 +69,31 @@
         
     <url>
      <loc>https://docs.privatesquare.in/docker/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-compose/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-machine/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-networks/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/docker/docker-secrets/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -125,37 +103,127 @@
         
     <url>
      <loc>https://docs.privatesquare.in/golang/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/http-request/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/http-request-proxy/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/string-functions/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/slices/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/golang/modify-usage-flag/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/ansible/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/ansible/ansible101/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/access-control-rbac/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/analytics/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/clone/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/jenkins-ec2-plugin/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/jenkins/even-scheduler-plugin/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/openldap/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/openldap/install/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/openldap/config/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/openldap/ldap-server-error-codes/</loc>
+     <lastmod>2018-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.privatesquare.in/tools/openldap/faq/</loc>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -165,19 +233,19 @@
         
     <url>
      <loc>https://docs.privatesquare.in/aws/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/blog/cloud-computing/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://docs.privatesquare.in/aws/global-infrastructure/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -189,7 +257,7 @@
         
     <url>
      <loc>https://docs.privatesquare.in/aws/awscli/</loc>
-     <lastmod>2018-05-19</lastmod>
+     <lastmod>2018-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
