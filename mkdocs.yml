@@ -26,18 +26,6 @@ pages:
   - Container Orchestration Tools: blog/container-orchestration-tools.md
   - Internet Of Things : blog/internet-of-things.md
   - IAAS, PAAS and SAAS: blog/understanding-iaas-paas-saas.md
-- Tools: 
-  - Ansible:
-    - Index : ansible/index.md
-    - Ansible 101 : ansible/ansible101.md
-  - OpenLDAP:
-    - Introduction: tools/openldap/index.md
-    - Installation: tools/openldap/install.md
-    - Configuration: tools/openldap/config.md
-    - Server Error Codes: tools/openldap/ldap-server-error-codes.md
-    - FAQ: tools/openldap/faq.md
-  - Jenkins:
-    - Introduction: tools/jenkins/index.md
 - Docker:
   - Introduction : docker/index.md
   - Docker Compose: docker/docker-compose.md
@@ -51,6 +39,22 @@ pages:
   - String Functions: golang/string-functions.md
   - Slices in Go: golang/slices.md
   - Modify Go Usage flag: golang/modify-usage-flag.md
+- Ansible:
+  - Index : ansible/index.md
+  - Ansible 101 : ansible/ansible101.md
+- Jenkins:
+  - Introduction: tools/jenkins/index.md
+  - Access Control in Jenkins: tools/jenkins/access-control-rbac.md
+  - Cloudbees Jenkins Analytics (CJA): tools/jenkins/analytics.md
+  - Cloning a Jenkins Master instance: tools/jenkins/clone.md
+  - Running Dynamic Jenkins slaves on AWS: tools/jenkins/jenkins-ec2-plugin.md
+  - How does Jenkins decide where to run any give build: tools/jenkins/even-scheduler-plugin.md
+- OpenLDAP:
+  - Introduction: tools/openldap/index.md
+  - Installation: tools/openldap/install.md
+  - Configuration: tools/openldap/config.md
+  - Server Error Codes: tools/openldap/ldap-server-error-codes.md
+  - FAQ: tools/openldap/faq.md
 - AWS:
   - Introduction : aws/index.md
   - Cloud Computing : blog/cloud-computing.md

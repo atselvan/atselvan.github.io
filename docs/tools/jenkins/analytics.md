@@ -22,8 +22,8 @@ The CloudBees Jenkins Analytics (CJA) is based upon 2 main tools:
 
 While Kibana is served by CJOC itself, ElasticSearch need to be configured.
 
-!!! note 
-        
+!!! note
+
     Running a single node ElasticSearch service, which is not recommended for production. As a native distributed system, ElasticSearch should run on your own cluster, with dedicated storage, and at least 3 nodes ("Split-Brain" problem).
 
 Next Starting from CJOC dashboard, navigate to Manage Jenkins -> Configure Analytics to start setting up analytics in Jenkins.

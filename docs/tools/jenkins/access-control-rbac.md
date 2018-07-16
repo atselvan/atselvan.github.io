@@ -39,9 +39,9 @@ e.g. "user" role only has overall read permissions while "developer" role suppor
 
 * **user** : The user role has the privilege to login to Jenkins to a blank Jenkins UI.
 
-`
-PS: Without the Job/Create privilege being assigned to the user role at the root level users will not be able to create items inside their folders as well, hence this privilege is granted.
-`
+!!! note
+
+    Without the Job/Create privilege being assigned to the user role at the root level users will not be able to create items inside their folders as well, hence this privilege is granted.
 
 * **dev-user** : This role has a slightly elevated privilege than the user role to build jobs etc.
 

@@ -1,4 +1,4 @@
-# How does Jenkins decide where to run any give build?
+# How does Jenkins decide where to run any give build
 
 When using many agent nodes, Jenkins needs to decide where to run any given build. This is called scheduling.
 
