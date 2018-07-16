@@ -1,19 +1,15 @@
-# Jenkins Analytics
+# Cloudbees Jenkins Analytics (CJA)
 
-CloudBees Jenkins Analytics provide metrics on the usage of agents and masters in a CJOC- managed Jenkins cluster.
+CloudBees Jenkins Analytics (CJA) provides metrics on the usage of agents and masters in a CJOC- managed Jenkins cluster.
+
 Analytics are presented in 2 pre-built-views:
 
-* Build Analytics: reported from client masters. Provides data on how many jobs builds/masters, success/fail rates, and which jobs are running on which agents.
-* Performance Analytics: reported from client masters. Provides data on how long jobs sit in the queue, how many executors are available/in-use, how big the JVM is, and how much garbage collection is occuring.
-    
-
-                            WHAT IS CLOUDBEES JENKINS ANALYTICS?
-The pre-built reports also include related reports in the left-hand screen:
-CJA supports creating custom views.
+* `Build Analytics:` reported from client masters. Provides data on how many jobs builds/masters, success/fail rates, and which jobs are running on which agents.
+* `Performance Analytics:` reported from client masters. Provides data on how long jobs sit in the queue, how many executors are available/in-use, how big the JVM is, and how much garbage collection is occuring.
 
 ## Benefits
 
-CloudBees Jenkins Analytics provides answers to questions about performance problems, how masters/agents are being used, and job failure rates. CJA can quantify whether your installation has sufficient build resources, memory, and is performing proper garbage collection. Dashboards can be saved and exported so that non-Jenkins users can review them.
+CloudBees Jenkins Analytics provides answers to questions about performance problems, how masters/agents are being used, and job failure rates. CJA can quantify whether your installation has sufficient build resources, memory, and is performing proper garbage collection. Dashboards can be saved and exported for analysis.
 
 ## Get started
 
@@ -26,9 +22,11 @@ The CloudBees Jenkins Analytics (CJA) is based upon 2 main tools:
 
 While Kibana is served by CJOC itself, ElasticSearch need to be configured.
 
-**PS:** Running a single node ElasticSearch service, which is not recommended for production. As a native distributed system, ElasticSearch should run on your own cluster, with dedicated storage, and at least 3 nodes ("Split-Brain" problem).
+!!! note 
+        
+    Running a single node ElasticSearch service, which is not recommended for production. As a native distributed system, ElasticSearch should run on your own cluster, with dedicated storage, and at least 3 nodes ("Split-Brain" problem).
 
-Next Starting from CJOC dashboard, navigate to Manage Jenkins , Configure Analytics to start setting up the CJA.
+Next Starting from CJOC dashboard, navigate to Manage Jenkins -> Configure Analytics to start setting up analytics in Jenkins.
 
 In Analytics configuration section:
 

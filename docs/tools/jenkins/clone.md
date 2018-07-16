@@ -1,66 +1,39 @@
-* Make both primary and secondary instance active with the same configuration.
+# Cloning a Jenkins Master instance
 
-STEPS
+In my experience with Jenkins, too many jobs on a single Jenkins master can lead to lots if performance issues on the master and as Jenkins cannot be scaled horizontally the only option that remains is to split the jobs on a single master into multiple identical instances.
 
-[07-07-2016]
-* Release both the masters from Jenkins Ops centre.
-* Release all the build servers from Jenkins Ops centre.
-* Stop Jenkins master 2.
-* Started working on Jenkins master 1.
-    * Make the configuration of jenkins ET almost similar to Jenkins PR.
-[08-07-2016]
-* Continuing work on Jenkins master 1.
-    * Install the License again.
-    * Configure Jenkins to use security via SLU LDAP.
-        * User access is disabled for now.
-    * Both the build servers are added to Jenkins Master 1 with two executors each.
-        * Build servers are added as a service.
-        * Deleted unwanted Build server services and workspaces from the server.
-    * Changing the home path naming from jenkins to jenkins-M1.
-    * Rechecked the configuration and made some changes that were not same as PR.
-* Clone master 1 to master 2.
-    * Make a copy of jenkins master 1 and rename home path as jenkins-M2.
-    * Delete the files listed below:
-        * $JENKINS_HOME/secret.key*
-$JENKINS_HOME/license.xml
-$JENKINS_HOME/identity.key.enc
-$JENKINS_HOME/jgroups/
-    * Delete JOC configuration files.
-        * $JENKINS_HOME/operations-center-cloud*
-$JENKINS_HOME/operations-center-client*
-$JENKINS_HOME/com.cloudbees.opscenter.client.plugin.OperationsCenterRootAction.xml
-    *  Remove any slave connections and generate new connections to them. You can do this by just removing them from $JENKINS_HOME/nodes and removing the contents of $JENKINS_HOME/jgroups
-    * Start the master 2 instance.
-    * Activate the instance by using the license.
-        * Have requested cloudbees for the license.
-    * The master 2 instance is up and running.
-    * Starting the Build servers as a service.
-[18-07-16]
-* Started working on Jenkins Master 2 production instance.
-* Coped jenkins master 1 data to a new directory jenkins-M2 under the nfs drive.
-    * No need to copy the jobs directory.
-* Delete the files listed below:
+But if you have a very big jenkins instance with many plugins and configurations linked to each plugin on the master it can be very time consuming to install multiple masters and then configure the same. It can be a nightmare as most of the jenkins configuration cannot be automated.
+
+Below steps explain how a master can be cloned to ensure that all the settings and configuration is identical to the existing master.  
+
+!!! note
+    below steps asumes that you have a Cloudbees Jenkins Operations Center (CJOC) to which the master is connected to. If this is not the case then you can ignore the steps in which CJOC is mentioned.
+
+## Steps for cloning a Jenkins Master
+
+1. Release the existing master from CJOC.
+2. Install a second instance of Jenkins for scaling up the cluster.
+3. Copy the existing jenkins master's home path into the home path of the new master. You can skip the jobs directory during the copy.
+4. Delete the files/directories listed below from the home path of the new master.
+    
     * $JENKINS_HOME/secret.key*
-$JENKINS_HOME/license.xml
-$JENKINS_HOME/identity.key.enc
-$JENKINS_HOME/jgroups/
-* Delete JOC configuration files.
-    * $JENKINS_HOME/operations-center-cloud*
-           $JENKINS_HOME/operations-center-client*
-           $JENKINS_HOME/com.cloudbees.opscenter.client.plugin.OperationsCenterRootAction.xml
-* Remove any slave connections and generate new connections to them. You can do this by just removing them from $JENKINS_HOME/nodes and removing the contents of $JENKINS_HOME/jgroups
-* Start the master 2 instance.
-* Activate the instance by using the license.
-* Change the jenkins url in the configuration page.
-* Configure jenkins security with LDAP.
-* 
+    * $JENKINS_HOME/license.xml
+    * $JENKINS_HOME/identity.key.enc
+    * $JENKINS_HOME/jgroups/
 
-ERROR
-* Once released from JOC, JCE license was not installed in the instances anymore and LDAP configuration was disabled.
-    * [Fix] license was installed again and LDAP was reconfigured.
-* LDAP is not configured as a secure connection using LB url.
-    * Need to check this.
-* Once Jenkins master 1 was cloned to Jenkins master 2 the instance ID of master 2 was changed and new license had to be requested.
-TO DO
-* Create a document explaining the current build server configuration in Jenkins.
-* Create a document for Master clone process.
+5. Delete JOC configuration files from the home path of the new master.
+
+    * $JENKINS_HOME/operations-center-cloud*
+    * $JENKINS_HOME/operations-center-client*
+    * $JENKINS_HOME/com.cloudbees.opscenter.client.plugin.OperationsCenterRootAction.xml
+
+6. Delete all the pinned plugins from the plugins directory in the new master's home path.
+
+    ```bash
+    rm -rf ${NEW MASTER HOME}/plugins/*.pinned
+    ```
+
+7. Starte the new master instance and configure the license.
+8. Change the Jenkins URL in `Manage Jenkins -> Configure System` with the URL of the new master.
+9. Connect both the masters with CJOC.
+10. If all the steps are completed you will have two identical jenkins masters
