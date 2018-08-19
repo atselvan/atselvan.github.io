@@ -1,6 +1,7 @@
 # Go Programing Language [golang]
 
-> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.  
+Go was created at Google in 2007 by Robert Grisemer, Rob Pike, and Ken Thompson. Go is a compiled, statically typed language.
 
 * [Why Go?](https://blog.smartbear.com/programming/an-introduction-to-the-go-language-boldly-going-where-no-man-has-ever-gone-before/)
 * [9 reasons to choose GoLang for your next web application](http://letzgro.net/blog/9-reasons-to-choose-golang-for-your-next-web-application/)

@@ -39,6 +39,7 @@ pages:
   - String Functions: golang/string-functions.md
   - Slices in Go: golang/slices.md
   - Modify Go Usage flag: golang/modify-usage-flag.md
+  - Logging in Go: golang/logging.md
 - Ansible:
   - Index : ansible/index.md
   - Ansible 101 : ansible/ansible101.md
