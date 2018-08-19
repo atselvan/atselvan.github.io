@@ -14,6 +14,7 @@ brew cask install gitkraken
 brew cask install mysqlworkbench
 brew cask install powershell
 brew install azure-cli
+brew cask install pgadmin4
 
 # IDE and text editors
 brew cask install visual-studio-code

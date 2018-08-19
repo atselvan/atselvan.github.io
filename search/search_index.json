@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the documentation of Private Square\n\n\nWhats New?\n\n\n\n\nAWS documentation on EC2\n\n\nLearn Ansible", 
+            "text": "Welcome to the documentation of Private Square\n\n\nWhats New?\n\n\n\n\nAWS documentation on EC2\n\n\nLearn Ansible\n\n\nLearn GoLang", 
             "title": "Welcome"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#whats-new", 
-            "text": "AWS documentation on EC2  Learn Ansible", 
+            "text": "AWS documentation on EC2  Learn Ansible  Learn GoLang", 
             "title": "Whats New?"
         }, 
         {
@@ -437,12 +437,12 @@
         }, 
         {
             "location": "/golang/", 
-            "text": "Go Programing Language [golang]\n\n\n\n\nGo is an open source programming language that makes it easy to build simple, reliable, and efficient software.\n\n\n\n\n\n\nWhy Go?\n\n\n9 reasons to choose GoLang for your next web application\n\n\nInstallation\n\n\nSetting up your workspace\n\n\n\n\nImportant links\n\n\n\n\nGetting started with Go\n\n\nJSON Validator\n\n\nJSON to Go Struct\n\n\nCurl to Go\n\n\nPointers Vs Values\n\n\nGo for Java programers\n\n\nFetch JSON from an API\n\n\nGo Slices (arrays / lists)\n\n\nForEach loop\n\n\nGo Report card\n\n\nBest Practices\n\n\nInterfaces in go", 
+            "text": "Go Programing Language [golang]\n\n\n\n\nGo is an open source programming language that makes it easy to build simple, reliable, and efficient software.\n\nGo was created at Google in 2007 by Robert Grisemer, Rob Pike, and Ken Thompson. Go is a compiled, statically typed language.\n\n\n\n\n\n\nWhy Go?\n\n\n9 reasons to choose GoLang for your next web application\n\n\nInstallation\n\n\nSetting up your workspace\n\n\n\n\nImportant links\n\n\n\n\nGetting started with Go\n\n\nJSON Validator\n\n\nJSON to Go Struct\n\n\nCurl to Go\n\n\nPointers Vs Values\n\n\nGo for Java programers\n\n\nFetch JSON from an API\n\n\nGo Slices (arrays / lists)\n\n\nForEach loop\n\n\nGo Report card\n\n\nBest Practices\n\n\nInterfaces in go", 
             "title": "Introduction"
         }, 
         {
             "location": "/golang/#go-programing-language-golang", 
-            "text": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.    Why Go?  9 reasons to choose GoLang for your next web application  Installation  Setting up your workspace", 
+            "text": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. \nGo was created at Google in 2007 by Robert Grisemer, Rob Pike, and Ken Thompson. Go is a compiled, statically typed language.    Why Go?  9 reasons to choose GoLang for your next web application  Installation  Setting up your workspace", 
             "title": "Go Programing Language [golang]"
         }, 
         {
@@ -564,6 +564,31 @@
             "location": "/golang/modify-usage-flag/#modify-usage-flag-in-go", 
             "text": "This can be done by modifying flag.Usage function.  1\n2\n3 flag . Usage   =   func ()   { \n     fmt . Fprintf ( os . Stderr ,   Print the Usage.\\n )  }    Example code:   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41 package   main  import   ( \n     flag \n     fmt \n     os  )  func   main ()   { \n     PrintHelp ()  }  func   PrintHelp ()   { \n     helpString   :=   `       Usage: ./nexus-repository-cli.exe [required prameters] [option] [parameters...]       [Required Prameters]:       -nexusUrl string           Nexus server URL (default  http://localhost:8081/nexus )       -username string              Username for authentication        -password string              Password for authentication       [options]        -list              List the repositories in Nexus. Optional parameters: repoType, repoPolicy       [parameters]        -repoType string              Type of a repository. Possible values : hosted/proxy/group        -repoPolicy string              Policy of the hosted repository. Possible values : snapshot/release        -verbose              Set this flag for Debug logs.      ` \n     flag . Usage   =   func ()   { \n         fmt . Fprintf ( os . Stderr ,   helpString ) \n     } \n     flag . Usage ()  }", 
             "title": "Modify Usage flag in go"
+        }, 
+        {
+            "location": "/golang/logging/", 
+            "text": "Logging in GoLang\n\n\nThe log package of go can be used to write logs depending on the requirement of the application. By default the package writes logs to the console but this can be modified as shown below:\n\n\nWriting logs to a file\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\npackage\n \nmain\n\n\n\nimport\n \n(\n\n    \nlog\n\n    \nos\n\n\n)\n\n\n\nfunc\n \nmain\n(){\n\n    \nlogger\n(\nWriting some logs to a log file\n)\n\n\n}\n\n\n\nfunc\n \nlogger\n(\nmessage\n \nstring\n){\n\n    \nf\n,\n \nerr\n \n:\n=\n \nos\n.\nOpenFile\n(\n:test.log\n,\n \nos\n.\nO_APPEND\n|\nos\n.\nO_CREATE\n|\nos\n.\nO_WRONLY\n,\n \n0644\n)\n\n    \nif\n \nerr\n \n!=\n \nnil\n \n{\n\n        \nlog\n.\nPrintln\n(\nerr\n)\n\n    \n}\n\n    \ndefer\n \nf\n.\nClose\n()\n\n    \nlogger\n \n:\n=\n \nlog\n.\nNew\n(\nf\n,\n \n[INFO]:\n,\n \nlog\n.\nLstdFlags\n)\n\n    \nlogger\n.\nPrintln\n(\nmessage\n)\n\n\n}\n\n\n\n\n\n\n\nWriting logs to stdout\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\npackage\n \nmain\n\n\n\nimport\n \n(\n\n    \nlog\n\n    \nos\n\n\n)\n\n\n\nfunc\n \nmain\n(){\n\n    \nlogger\n(\nWriting some logs to stdout\n)\n\n\n}\n\n\n\nfunc\n \nlogger\n(\nmessage\n \nstring\n){\n\n    \nlogger\n \n:\n=\n \nlog\n.\nNew\n(\nos\n.\nStdout\n,\n \n[INFO]:\n,\n \nlog\n.\nLstdFlags\n)\n\n    \nlogger\n.\nPrintln\n(\nmessage\n)\n\n\n}\n\n\n\n\n\n\n\nWriting logs to Stderr\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\npackage\n \nmain\n\n\n\nimport\n \n(\n\n    \nlog\n\n    \nos\n\n\n)\n\n\n\nfunc\n \nmain\n(){\n\n    \nlogger\n(\nWriting some logs to stderr\n)\n\n\n}\n\n\n\nfunc\n \nlogger\n(\nmessage\n \nstring\n){\n\n    \nlogger\n \n:\n=\n \nlog\n.\nNew\n(\nos\n.\nStderr\n,\n \n[INFO]:\n,\n \nlog\n.\nLstdFlags\n)\n\n    \nlogger\n.\nPrintln\n(\nmessage\n)\n\n\n}", 
+            "title": "Logging in Go"
+        }, 
+        {
+            "location": "/golang/logging/#logging-in-golang", 
+            "text": "The log package of go can be used to write logs depending on the requirement of the application. By default the package writes logs to the console but this can be modified as shown below:", 
+            "title": "Logging in GoLang"
+        }, 
+        {
+            "location": "/golang/logging/#writing-logs-to-a-file", 
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20 package   main  import   ( \n     log \n     os  )  func   main (){ \n     logger ( Writing some logs to a log file )  }  func   logger ( message   string ){ \n     f ,   err   : =   os . OpenFile ( :test.log ,   os . O_APPEND | os . O_CREATE | os . O_WRONLY ,   0644 ) \n     if   err   !=   nil   { \n         log . Println ( err ) \n     } \n     defer   f . Close () \n     logger   : =   log . New ( f ,   [INFO]: ,   log . LstdFlags ) \n     logger . Println ( message )  }", 
+            "title": "Writing logs to a file"
+        }, 
+        {
+            "location": "/golang/logging/#writing-logs-to-stdout", 
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15 package   main  import   ( \n     log \n     os  )  func   main (){ \n     logger ( Writing some logs to stdout )  }  func   logger ( message   string ){ \n     logger   : =   log . New ( os . Stdout ,   [INFO]: ,   log . LstdFlags ) \n     logger . Println ( message )  }", 
+            "title": "Writing logs to stdout"
+        }, 
+        {
+            "location": "/golang/logging/#writing-logs-to-stderr", 
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15 package   main  import   ( \n     log \n     os  )  func   main (){ \n     logger ( Writing some logs to stderr )  }  func   logger ( message   string ){ \n     logger   : =   log . New ( os . Stderr ,   [INFO]: ,   log . LstdFlags ) \n     logger . Println ( message )  }", 
+            "title": "Writing logs to Stderr"
         }, 
         {
             "location": "/ansible/", 
